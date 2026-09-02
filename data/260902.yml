@@ -1,0 +1,64 @@
+about:
+  description: Provides a way to load and enumerate PKCS#11 modules.
+  license: NOASSERTION
+  homepage: https://p11-glue.github.io/p11-glue/p11-kit.html
+  head: 120050e
+  archived: false
+  latestVersion: 0.26.5
+  collectedAt: 2026-09-02T05:10:54Z
+timeline:
+  created: 2013-08-12
+  lastCommit: 2026-08-06
+  lastRelease: 2026-08-06
+popularity:
+  star: 198
+  watcher: 11
+  fork: 115
+  release: 41
+  contributor: 90
+  pullRequest: 44
+  issue: 244
+language:
+  C: 3031783
+  Shell: 75926
+  Meson: 49436
+  Makefile: 45327
+  M4: 25271
+  Python: 15994
+  sed: 1325
+  Dockerfile: 606
+  Emacs Lisp: 155
+totalLine: 3245823
+recent:
+  last30d:
+    since: 2026-08-03
+    release: 1
+    mergedPR: 1
+    openPR: 2
+    closedIssue: 0
+    openIssue: 1
+    commit: 0
+  last90d:
+    since: 2026-06-04
+    release: 3
+    mergedPR: 12
+    openPR: 2
+    closedIssue: 2
+    openIssue: 2
+    commit: 14
+  last180d:
+    since: 2026-03-06
+    release: 3
+    mergedPR: 25
+    openPR: 4
+    closedIssue: 3
+    openIssue: 4
+    commit: 29
+  last360d:
+    since: 2025-09-07
+    release: 11
+    mergedPR: 45
+    openPR: 5
+    closedIssue: 9
+    openIssue: 6
+    commit: 45
