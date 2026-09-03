@@ -1,11 +1,13 @@
 about:
-  description: Provides a way to load and enumerate PKCS#11 modules.
+  description:
+  |
+    Provides a way to load and enumerate PKCS#11 modules.
   license: NOASSERTION
   homepage: https://p11-glue.github.io/p11-glue/p11-kit.html
   head: 120050e
   archived: false
   latestVersion: 0.26.5
-  collectedAt: 2026-09-03T05:13:20Z
+  collectedAt: 2026-09-03T22:36:20Z
 timeline:
   created: 2013-08-12
   lastCommit: 2026-08-06
@@ -28,7 +30,7 @@ language:
   sed: 1325
   Dockerfile: 606
   Emacs Lisp: 155
-totalLine: 3245823
+totalBytes: 3245823
 recent:
   last30d:
     since: 2026-08-04
