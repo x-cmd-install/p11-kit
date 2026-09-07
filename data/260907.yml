@@ -5,7 +5,7 @@ about:
   head: 120050e
   archived: false
   latestVersion: "0.26.5"
-  collectedAt: 2026-09-07T04:23:24Z
+  collectedAt: 2026-09-07T20:05:47Z
 timeline:
   created: 2013-08-12
   lastCommit: 2026-08-06
@@ -87,7 +87,7 @@ total:
   commit: 1546
 ---
 path: /home/runner/.x-repo/github.com/p11-glue/p11-kit
-collectedAt: 2026-09-07T04:23:27Z
+collectedAt: 2026-09-07T20:05:48Z
 loc:
   C:
     code: 64789
@@ -183,7 +183,7 @@ total:
 
 ---
 eget:
-  collectedAt: 2026-09-07T04:23:34+00:00
+  collectedAt: 2026-09-07T20:05:49+00:00
   platform:
     darwin/arm64:
       name:  null
