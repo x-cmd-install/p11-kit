@@ -12,6 +12,18 @@ Provides a way to load and enumerate PKCS#11 modules.
 x install p11-kit
 ```
 
+## 代码规模
+
+合计: **82,343** 行代码（覆盖前 5 种语言、共 **299** 个文件）。
+
+| 语言 | 代码 | 注释 | 空行 | 文件数 |
+|------|-----:|-----:|-----:|------:|
+| C | 65,496 | 10,568 | 14,225 | 182 |
+| CHeader | 8,618 | 2,758 | 1,968 | 70 |
+| Sh | 2,332 | 147 | 412 | 26 |
+| Xml | 2,088 | 0 | 243 | 11 |
+| Meson | 1,436 | 46 | 228 | 10 |
+
 ## 源代码
 
 - **上游仓库**: <https://github.com/p11-glue/p11-kit>
@@ -23,13 +35,6 @@ x install p11-kit
 - **最新版本**: `0.26.5` (2026-08-06)
 - **最近提交**: 2026-09-08
 - **Release 含资产**: 2 个
-
-## Release 资产
-
-| 资产 | 大小 | 目标平台 |
-|------|-----:|----------|
-| [p11-kit-0.26.5.tar.xz](https://github.com/p11-glue/p11-kit/releases/download/0.26.5/p11-kit-0.26.5.tar.xz) | 1.0 MiB | `other` |
-| [p11-kit-0.26.5.tar.xz.sig](https://github.com/p11-glue/p11-kit/releases/download/0.26.5/p11-kit-0.26.5.tar.xz.sig) | 119 B | `other` |
 
 ## 流行度
 
@@ -44,20 +49,37 @@ x install p11-kit
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
 | 30d | 2026-08-11 | 0 | 1 | 2 | 0 | 1 | 1 |
+| last60d | 2026-07-12 | 1 | 2 | 2 | 0 | 2 | 3 |
 | 90d | 2026-06-12 | 3 | 10 | 2 | 2 | 2 | 11 |
+| last180d | 2026-03-14 | 3 | 25 | 2 | 3 | 4 | 29 |
 | 360d | 2025-09-15 | 8 | 41 | 4 | 8 | 6 | 49 |
+| last720d | 2024-09-20 | 11 | 72 | 4 | 22 | 17 | 91 |
 
-## 代码规模
+## Release 资产
 
-合计: **82,343** 行代码（覆盖前 5 种语言、共 **299** 个文件）。
+| 资产 | 大小 | 目标平台 |
+|------|-----:|----------|
+| [p11-kit-0.26.5.tar.xz](https://github.com/p11-glue/p11-kit/releases/download/0.26.5/p11-kit-0.26.5.tar.xz) | 1.0 MiB | `other` |
+| [p11-kit-0.26.5.tar.xz.sig](https://github.com/p11-glue/p11-kit/releases/download/0.26.5/p11-kit-0.26.5.tar.xz.sig) | 119 B | `other` |
 
-| 语言 | 代码 | 注释 | 空行 | 文件数 |
-|------|-----:|-----:|-----:|------:|
-| C | 65,496 | 10,568 | 14,225 | 182 |
-| CHeader | 8,618 | 2,758 | 1,968 | 70 |
-| Sh | 2,332 | 147 | 412 | 26 |
-| Xml | 2,088 | 0 | 243 | 11 |
-| Meson | 1,436 | 46 | 228 | 10 |
+## 发行版状态
+
+在 [repology.org](https://repology.org/project/p11-kit) 上共有 **342** 个发行版报告此项目。**84** 个 ✅ 已是最新上游版本，**199** 个 ⚠️ 使用旧版本。
+
+| 发行版 | 版本 | 状态 |
+|--------|------|------|
+| Debian unstable | `0.26.5` | ✅ latest |
+| Debian 14 | `0.26.5` | ✅ latest |
+| Debian 13 | `0.25.5` | ⚠️ outdated |
+| Ubuntu 26.04 LTS | `0.26.2` | ⚠️ outdated |
+| Ubuntu 24.04 LTS | `0.25.3` | ⚠️ outdated |
+| Arch | `0.26.5` | ✅ latest |
+| Homebrew | `0.26.5` | ✅ latest |
+| Fedora rawhide | `0.26.5` | ✅ latest |
+| Nix unstable | `0.26.2` | ⚠️ outdated |
+| Void | `0.26.4` | ⚠️ outdated |
+| Alpine edge | `0.26.2` | ⚠️ outdated |
+| openSUSE Tumbleweed | `0.26.2` | ⚠️ outdated |
 
 ## 改进这些数据
 
@@ -68,4 +90,4 @@ p11-kit 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/260910.yml` · 2026-09-10T16:18:16Z._
+_数据快照: `data/card/260910.yml` · 2026-09-10T20:14:11Z._
