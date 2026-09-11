@@ -7,7 +7,7 @@ about:
   latestVersion: "0.26.5"
   latestRelease: "0.26.5"
   latestPrerelease: ""
-  collectedAt: 2026-09-11T04:26:24Z
+  collectedAt: 2026-09-11T20:40:58Z
 timeline:
   created: 2013-08-12
   lastCommit: 2026-09-08
@@ -91,7 +91,7 @@ total:
   commit: 1552
 ---
 path: /home/runner/.x-repo/github.com/p11-glue/p11-kit
-collectedAt: 2026-09-11T04:26:27Z
+collectedAt: 2026-09-11T20:41:01Z
 loc:
   C:
     code: 65496
