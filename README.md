@@ -48,12 +48,12 @@ Total: **82,343** lines of code across **299** files in the top 5 languages.
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-14 | 0 | 1 | 2 | 0 | 1 | 1 |
-| last60d | 2026-07-15 | 1 | 2 | 2 | 0 | 2 | 3 |
-| 90d | 2026-06-15 | 3 | 9 | 2 | 2 | 2 | 10 |
-| last180d | 2026-03-17 | 3 | 25 | 2 | 3 | 4 | 29 |
-| 360d | 2025-09-18 | 8 | 39 | 4 | 6 | 6 | 44 |
-| last720d | 2024-09-23 | 11 | 72 | 4 | 22 | 17 | 91 |
+| 30d | 2026-08-15 | 0 | 1 | 2 | 0 | 1 | 1 |
+| last60d | 2026-07-16 | 1 | 2 | 2 | 0 | 2 | 3 |
+| 90d | 2026-06-16 | 3 | 9 | 2 | 2 | 2 | 10 |
+| last180d | 2026-03-18 | 3 | 25 | 2 | 3 | 4 | 29 |
+| 360d | 2025-09-19 | 7 | 37 | 4 | 5 | 5 | 44 |
+| last720d | 2024-09-24 | 11 | 72 | 4 | 22 | 17 | 91 |
 
 ## Release assets
 
@@ -61,25 +61,6 @@ Total: **82,343** lines of code across **299** files in the top 5 languages.
 |-------|-----:|--------|
 | [p11-kit-0.26.5.tar.xz](https://github.com/p11-glue/p11-kit/releases/download/0.26.5/p11-kit-0.26.5.tar.xz) | 1.0 MiB | `other` |
 | [p11-kit-0.26.5.tar.xz.sig](https://github.com/p11-glue/p11-kit/releases/download/0.26.5/p11-kit-0.26.5.tar.xz.sig) | 119 B | `other` |
-
-## Distribution status
-
-Reported by **342** distros on [repology.org](https://repology.org/project/p11-kit). **84** are ✅ on the latest upstream release, **199** are ⚠️ on an older version.
-
-| Distro | Version | Status |
-|--------|---------|--------|
-| Debian unstable | `0.26.5` | ✅ latest |
-| Debian 14 | `0.26.5` | ✅ latest |
-| Debian 13 | `0.25.5` | ⚠️ outdated |
-| Ubuntu 26.04 LTS | `0.26.2` | ⚠️ outdated |
-| Ubuntu 24.04 LTS | `0.25.3` | ⚠️ outdated |
-| Arch | `0.26.5` | ✅ latest |
-| Homebrew | `0.26.5` | ✅ latest |
-| Fedora rawhide | `0.26.5` | ✅ latest |
-| Nix unstable | `0.26.2` | ⚠️ outdated |
-| Void | `0.26.4` | ⚠️ outdated |
-| Alpine edge | `0.26.2` | ⚠️ outdated |
-| openSUSE Tumbleweed | `0.26.2` | ⚠️ outdated |
 
 ## Improve this data
 
@@ -90,4 +71,4 @@ Install metadata for p11-kit lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260913.yml` · 2026-09-13T04:37:09Z._
+_Snapshot: `data/card/260914.yml` · 2026-09-14T04:45:29Z._
