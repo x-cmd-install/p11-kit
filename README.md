@@ -4,7 +4,7 @@
 
 Provides a way to load and enumerate PKCS#11 modules.
 
-![p11-kit](https://repo.x-cmd.io/p11-kit.svg)
+[![x-cmd/install — p11-kit Code Quality Monitoring Repo Card](https://repo.x-cmd.io/p11-kit.svg)](https://x-cmd.com/install/p11-kit)
 
 ## Install
 
@@ -14,12 +14,12 @@ x install p11-kit
 
 ## Code insight
 
-Total: **82,343** lines of code across **299** files in the top 5 languages.
+Total: **83,803** lines of code across **299** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| C | 65,496 | 10,568 | 14,225 | 182 |
-| CHeader | 8,618 | 2,758 | 1,968 | 70 |
+| C | 66,948 | 10,627 | 14,489 | 182 |
+| CHeader | 8,671 | 2,764 | 1,976 | 70 |
 | Sh | 2,332 | 147 | 412 | 26 |
 | Xml | 2,088 | 0 | 243 | 11 |
 | Meson | 1,436 | 46 | 228 | 10 |
@@ -33,27 +33,27 @@ Total: **82,343** lines of code across **299** files in the top 5 languages.
 ## Release
 
 - **Latest**: `0.26.5` (2026-08-06)
-- **Last commit**: 2026-09-08
+- **Last commit**: 2026-09-18
 - **Assets in release**: 2
 
 ## Popularity
 
-- **Stars**: 199 · **Forks**: 115 · **Open issues**: 244 · **Contributors**: 91
+- **Stars**: 200 · **Forks**: 115 · **Open issues**: 244 · **Contributors**: 91
 
 ## Totals (cumulative)
 
-- **Releases**: 41 · **Merged PRs**: 479 · **Open PRs**: 8 · **Closed issues**: 179 · **Open issues**: 65 · **Commits**: 1552
+- **Releases**: 41 · **Merged PRs**: 481 · **Open PRs**: 7 · **Closed issues**: 185 · **Open issues**: 59 · **Commits**: 1562
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-19 | 0 | 1 | 2 | 0 | 1 | 1 |
-| last60d | 2026-07-20 | 1 | 2 | 2 | 0 | 2 | 3 |
-| 90d | 2026-06-20 | 3 | 9 | 2 | 2 | 2 | 10 |
-| last180d | 2026-03-22 | 3 | 25 | 2 | 3 | 4 | 29 |
-| 360d | 2025-09-23 | 6 | 36 | 4 | 5 | 5 | 44 |
-| last720d | 2024-09-28 | 11 | 72 | 4 | 22 | 17 | 91 |
+| 30d | 2026-08-21 | 0 | 3 | 1 | 1 | 0 | 11 |
+| last60d | 2026-07-22 | 1 | 4 | 1 | 2 | 0 | 13 |
+| 90d | 2026-06-22 | 3 | 11 | 1 | 4 | 0 | 20 |
+| last180d | 2026-03-24 | 3 | 27 | 1 | 5 | 2 | 38 |
+| 360d | 2025-09-25 | 6 | 38 | 3 | 7 | 3 | 54 |
+| last720d | 2024-09-30 | 11 | 74 | 3 | 25 | 14 | 101 |
 
 ## Release assets
 
@@ -71,4 +71,4 @@ Install metadata for p11-kit lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260918.yml` · 2026-09-18T04:29:55Z._
+_Snapshot: `data/card/260920.yml` · 2026-09-20T04:46:34Z._
