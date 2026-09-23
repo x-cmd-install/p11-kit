@@ -4,7 +4,7 @@
 
 Provides a way to load and enumerate PKCS#11 modules.
 
-[![x-cmd/install — p11-kit Code Quality Monitoring Repo Card](https://repo.x-cmd.io/p11-kit.svg?lang=zh)](https://x-cmd.com/install/p11-kit)
+[![x-cmd/install — p11-kit Code Quality Monitoring Repo Card](https://x-cmd.com/repo-card/p11-kit.svg?lang=zh)](https://x-cmd.com/install/p11-kit)
 
 ## 安装
 
@@ -48,12 +48,12 @@ x install p11-kit
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-23 | 0 | 3 | 1 | 0 | 0 | 11 |
-| last60d | 2026-07-24 | 1 | 4 | 2 | 2 | 0 | 13 |
-| 90d | 2026-06-24 | 3 | 11 | 2 | 4 | 0 | 20 |
-| last180d | 2026-03-26 | 3 | 27 | 2 | 5 | 2 | 38 |
-| 360d | 2025-09-27 | 6 | 38 | 4 | 7 | 3 | 54 |
-| last720d | 2024-10-02 | 11 | 74 | 4 | 25 | 14 | 101 |
+| 30d | 2026-08-24 | 0 | 3 | 1 | 0 | 0 | 11 |
+| last60d | 2026-07-25 | 1 | 4 | 2 | 2 | 0 | 13 |
+| 90d | 2026-06-25 | 3 | 11 | 2 | 4 | 0 | 20 |
+| last180d | 2026-03-27 | 3 | 26 | 2 | 5 | 2 | 38 |
+| 360d | 2025-09-28 | 6 | 38 | 4 | 7 | 3 | 54 |
+| last720d | 2024-10-03 | 11 | 73 | 4 | 25 | 14 | 101 |
 
 ## Release 资产
 
@@ -71,4 +71,4 @@ p11-kit 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/260922.yml` · 2026-09-22T04:41:29Z._
+_数据快照: `data/card/260923.yml` · 2026-09-23T04:39:49Z._
