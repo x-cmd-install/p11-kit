@@ -33,7 +33,7 @@ Total: **83,803** lines of code across **299** files in the top 5 languages.
 ## Release
 
 - **Latest**: `0.26.5` (2026-08-06)
-- **Last commit**: 2026-09-18
+- **Last commit**: 2026-09-24
 - **Assets in release**: 2
 
 ## Popularity
@@ -42,18 +42,18 @@ Total: **83,803** lines of code across **299** files in the top 5 languages.
 
 ## Totals (cumulative)
 
-- **Releases**: 41 · **Merged PRs**: 481 · **Open PRs**: 8 · **Closed issues**: 185 · **Open issues**: 59 · **Commits**: 1562
+- **Releases**: 41 · **Merged PRs**: 482 · **Open PRs**: 7 · **Closed issues**: 185 · **Open issues**: 59 · **Commits**: 1563
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-25 | 0 | 3 | 1 | 0 | 0 | 11 |
-| last60d | 2026-07-26 | 1 | 4 | 2 | 2 | 0 | 13 |
-| 90d | 2026-06-26 | 3 | 11 | 2 | 4 | 0 | 20 |
-| last180d | 2026-03-28 | 3 | 26 | 2 | 5 | 2 | 38 |
-| 360d | 2025-09-29 | 6 | 38 | 4 | 7 | 3 | 54 |
-| last720d | 2024-10-04 | 11 | 73 | 4 | 25 | 14 | 101 |
+| 30d | 2026-08-26 | 0 | 4 | 0 | 0 | 0 | 12 |
+| last60d | 2026-07-27 | 1 | 5 | 1 | 2 | 0 | 14 |
+| 90d | 2026-06-27 | 3 | 12 | 1 | 4 | 0 | 21 |
+| last180d | 2026-03-29 | 3 | 27 | 1 | 5 | 2 | 39 |
+| 360d | 2025-09-30 | 6 | 39 | 3 | 7 | 3 | 55 |
+| last720d | 2024-10-05 | 11 | 74 | 3 | 25 | 14 | 101 |
 
 ## Release assets
 
@@ -71,4 +71,4 @@ Install metadata for p11-kit lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260924.yml` · 2026-09-24T04:34:00Z._
+_Snapshot: `data/card/260925.yml` · 2026-09-25T04:44:41Z._
