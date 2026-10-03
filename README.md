@@ -38,7 +38,7 @@ Total: **83,803** lines of code across **299** files in the top 5 languages.
 
 ## Popularity
 
-- **Stars**: 201 · **Forks**: 116 · **Open issues**: 244 · **Contributors**: 91
+- **Stars**: 201 · **Forks**: 115 · **Open issues**: 244 · **Contributors**: 91
 
 ## Totals (cumulative)
 
@@ -48,12 +48,12 @@ Total: **83,803** lines of code across **299** files in the top 5 languages.
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-02 | 0 | 3 | 2 | 0 | 0 | 11 |
-| last60d | 2026-08-03 | 1 | 5 | 3 | 1 | 0 | 14 |
-| 90d | 2026-07-04 | 3 | 11 | 3 | 3 | 0 | 19 |
-| last180d | 2026-04-05 | 3 | 27 | 3 | 5 | 2 | 39 |
-| 360d | 2025-10-07 | 6 | 39 | 5 | 7 | 3 | 54 |
-| last720d | 2024-10-12 | 11 | 72 | 5 | 25 | 14 | 100 |
+| 30d | 2026-09-03 | 0 | 3 | 2 | 0 | 0 | 11 |
+| last60d | 2026-08-04 | 1 | 5 | 3 | 1 | 0 | 14 |
+| 90d | 2026-07-05 | 3 | 11 | 3 | 3 | 0 | 19 |
+| last180d | 2026-04-06 | 3 | 27 | 3 | 5 | 2 | 39 |
+| 360d | 2025-10-08 | 6 | 39 | 5 | 7 | 3 | 54 |
+| last720d | 2024-10-13 | 11 | 72 | 5 | 25 | 14 | 100 |
 
 ## Release assets
 
@@ -71,4 +71,4 @@ Install metadata for p11-kit lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261002.yml` · 2026-10-02T05:25:46Z._
+_Snapshot: `data/card/261003.yml` · 2026-10-03T05:08:12Z._
