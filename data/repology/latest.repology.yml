@@ -1,132 +1,506 @@
-- repo: slackware64_current
-  subrepo: slackware64
-  binname: p11-kit
+- repo: eurolinux_8
+  subrepo: baseos
+  srcname: p11-kit
   visiblename: p11-kit
-  version: 0.26.5
-  origversion: null
-  status: newest
-  maintainers:
-    - volkerdi@slackware.com
-- repo: slackwarearm_15_0
-  subrepo: slackware
-  binname: p11-kit
-  visiblename: p11-kit
-  version: 0.24.1
+  version: 0.23.14
+  origversion: 0.23.14-5.el8_0
+  status: legacy
+  summary: Library for loading and sharing PKCS#11 modules
+  licenses:
+    - BSD
+  categories:
+    - Unspecified
+  vulnerable: true
+- repo: hpux_11_31
+  subrepo: hppa_32
+  srcname: p11_kit
+  binname: p11_kit
+  visiblename: p11_kit
+  version: 0.23.2
   origversion: null
   status: legacy
-  maintainers:
-    - volkerdi@slackware.com
-- repo: slackwarearm_15_0
-  subrepo: patches
+  vulnerable: true
+- repo: hpux_11_31
+  subrepo: ia64_32
+  srcname: p11_kit
+  binname: p11_kit
+  visiblename: p11_kit
+  version: 0.23.2
+  origversion: null
+  status: legacy
+  vulnerable: true
+- repo: adelie_current
+  subrepo: user
+  srcname: p11-kit
   binname: p11-kit
   visiblename: p11-kit
-  version: 0.26.5
-  origversion: null
-  status: newest
-  maintainers:
-    - volkerdi@slackware.com
-- repo: parrot
-  subrepo: parrot/main
-  srcname: p11-kit
-  binnames:
-    - libp11-kit-dev
-    - libp11-kit0
-    - p11-kit
-    - p11-kit-modules
-    - p11-kit-doc
-  visiblename: p11-kit
-  version: 0.25.5
-  origversion: 0.25.5-3
-  status: outdated
-  maintainers:
-    - pkg-gnutls-maint@lists.alioth.debian.org
-    - ametzler@debian.org
-  categories:
-    - misc
-- repo: parrot
-  subrepo: parrot-updates/main
-  srcname: p11-kit
-  binnames:
-    - libp11-kit-dev
-    - libp11-kit0
-    - p11-kit
-    - p11-kit-modules
-    - p11-kit-doc
-  visiblename: p11-kit
-  version: 0.25.5
-  origversion: 0.25.5-3
-  status: outdated
-  maintainers:
-    - pkg-gnutls-maint@lists.alioth.debian.org
-    - ametzler@debian.org
-  categories:
-    - misc
-- repo: pclinuxos
-  srcname: p11-kit
-  visiblename: p11-kit
-  version: 0.26.2
-  origversion: 0.26.2-1pclos2026
-  status: outdated
-  summary: Load and enumerate PKCS#11 modules
-  categories:
-    - System/Libraries
-- repo: crux_38
-  subrepo: opt
-  srcname: p11-kit
-  visiblename: p11-kit
-  version: 0.26.5
-  origversion: null
-  status: newest
-  summary: Provides a way to load and enumerate PKCS#11 modules
-  maintainers:
-    - tbier@posteo.de
-- repo: almalinux_8
-  subrepo: BaseOS
-  srcname: p11-kit
-  visiblename: p11-kit
-  version: 0.23.22
-  origversion: 0.23.22-2.el8
+  version: 0.23.20
+  origversion: 0.23.20-r0
   status: outdated
   summary: Library for loading and sharing PKCS#11 modules
   maintainers:
-    - packager@almalinux.org
+    - fallback-mnt-adelie@repology
   licenses:
     - BSD-3-Clause
+  vulnerable: true
+- repo: adelie_current
+  subrepo: user
+  srcname: p11-kit
+  binname: p11-kit-dbg
+  visiblename: p11-kit-dbg
+  version: 0.23.20
+  origversion: 0.23.20-r0
+  status: outdated
+  summary: Library for loading and sharing PKCS#11 modules (debug symbols)
+  maintainers:
+    - fallback-mnt-adelie@repology
+  licenses:
+    - BSD-3-Clause
+  vulnerable: true
+- repo: adelie_current
+  subrepo: user
+  srcname: p11-kit
+  binname: p11-kit-dev
+  visiblename: p11-kit-dev
+  version: 0.23.20
+  origversion: 0.23.20-r0
+  status: outdated
+  summary: Library for loading and sharing PKCS#11 modules (development files)
+  maintainers:
+    - fallback-mnt-adelie@repology
+  licenses:
+    - BSD-3-Clause
+  vulnerable: true
+- repo: adelie_current
+  subrepo: user
+  srcname: p11-kit
+  binname: p11-kit-doc
+  visiblename: p11-kit-doc
+  version: 0.23.20
+  origversion: 0.23.20-r0
+  status: outdated
+  summary: Library for loading and sharing PKCS#11 modules (documentation)
+  maintainers:
+    - fallback-mnt-adelie@repology
+  licenses:
+    - BSD-3-Clause
+  vulnerable: true
+- repo: adelie_current
+  subrepo: user
+  srcname: p11-kit
+  binname: p11-kit-trust
+  visiblename: p11-kit-trust
+  version: 0.23.20
+  origversion: 0.23.20-r0
+  status: outdated
+  summary: System trust module from p11-kit
+  maintainers:
+    - fallback-mnt-adelie@repology
+  licenses:
+    - BSD-3-Clause
+  vulnerable: true
+- repo: amazon_2
+  srcname: p11-kit
+  visiblename: p11-kit
+  version: 0.23.19
+  origversion: 0.23.19-1.amzn2
+  status: legacy
+  summary: Library for loading and sharing PKCS#11 modules
+  licenses:
+    - BSD
   categories:
     - Unspecified
-- repo: aerynos
+  vulnerable: true
+- repo: amazon_2
   srcname: p11-kit
   visiblename: p11-kit
-  version: 0.26.5
-  origversion: null
-  status: newest
-  summary: Loads and enumerates PKCS#11 modules
+  version: 0.23.21
+  origversion: 0.23.21-2.amzn2.0.1
+  status: legacy
+  summary: Library for loading and sharing PKCS#11 modules
   licenses:
-    - GPL-2.0-or-later
-- repo: aix_osp
+    - BSD
+  categories:
+    - Unspecified
+  vulnerable: true
+- repo: amazon_2
   srcname: p11-kit
   visiblename: p11-kit
-  version: "0.11"
-  origversion: 0.11-1
+  version: 0.23.5
+  origversion: 0.23.5-3.amzn2.0.2
   status: legacy
-- repo: aix_osp
+  summary: Library for loading and sharing PKCS#11 modules
+  licenses:
+    - BSD
+  categories:
+    - Unspecified
+  vulnerable: true
+- repo: amazon_2
   srcname: p11-kit
   visiblename: p11-kit
-  version: "0.12"
-  origversion: 0.12-1
+  version: 0.23.5
+  origversion: 0.23.5-3.amzn2
   status: legacy
-- repo: aix_osp
+  summary: Library for loading and sharing PKCS#11 modules
+  licenses:
+    - BSD
+  categories:
+    - Unspecified
+  vulnerable: true
+- repo: centos_7
+  subrepo: os
   srcname: p11-kit
   visiblename: p11-kit
-  version: "0.14"
-  origversion: 0.14-1
+  version: 0.23.5
+  origversion: 0.23.5-3.el7
   status: outdated
-- repo: aix_osp
+  summary: Library for loading and sharing PKCS#11 modules
+  licenses:
+    - BSD
+  categories:
+    - Unspecified
+  vulnerable: true
+- repo: cygwin
+  srcname: mingw64-i686-p11-kit
+  binname: mingw64-i686-p11-kit
+  visiblename: mingw64-i686-p11-kit
+  version: 0.23.10
+  origversion: 0.23.10-1
+  status: outdated
+  summary: PKCS#11 module library for Win32 toolchain
+  maintainers:
+    - orphaned@cygwin
+  categories:
+    - Libs
+  vulnerable: true
+- repo: cygwin
+  srcname: mingw64-x86_64-p11-kit
+  binname: mingw64-x86_64-p11-kit
+  visiblename: mingw64-x86_64-p11-kit
+  version: 0.23.10
+  origversion: 0.23.10-1
+  status: outdated
+  summary: PKCS#11 module library for Win64 toolchain
+  maintainers:
+    - orphaned@cygwin
+  categories:
+    - Libs
+  vulnerable: true
+- repo: deepin_unstable
+  subrepo: main
+  srcname: p11-kit
+  binnames:
+    - libp11-kit-dev
+    - libp11-kit0
+    - p11-kit
+    - p11-kit-modules
+  visiblename: p11-kit
+  version: 0.23.15.1
+  origversion: 0.23.15.1-1+eagle
+  status: outdated
+  maintainers:
+    - pkg-gnutls-maint@lists.alioth.debian.org
+    - ametzler@debian.org
+  categories:
+    - libs
+  vulnerable: true
+- repo: eurolinux_8
+  subrepo: baseos
   srcname: p11-kit
   visiblename: p11-kit
-  version: "0.3"
-  origversion: 0.3-1
+  version: 0.23.14
+  origversion: 0.23.14-4.el8
   status: legacy
+  summary: Library for loading and sharing PKCS#11 modules
+  licenses:
+    - BSD
+  categories:
+    - Unspecified
+  vulnerable: true
+- repo: fedora_39
+  subrepo: release
+  srcname: mingw-p11-kit
+  binnames:
+    - mingw32-p11-kit
+    - mingw64-p11-kit
+  visiblename: mingw-p11-kit
+  version: 0.23.16.1
+  origversion: 0.23.16.1-12.fc39
+  status: outdated
+  summary: MinGW Library for loading and sharing PKCS#11 modules
+  licenses:
+    - BSD
+  categories:
+    - Unspecified
+  vulnerable: true
+- repo: fedora_40
+  subrepo: release
+  srcname: mingw-p11-kit
+  binnames:
+    - mingw32-p11-kit
+    - mingw64-p11-kit
+  visiblename: mingw-p11-kit
+  version: 0.23.16.1
+  origversion: 0.23.16.1-14.fc40
+  status: outdated
+  summary: MinGW Library for loading and sharing PKCS#11 modules
+  licenses:
+    - BSD
+  categories:
+    - Unspecified
+  vulnerable: true
+- repo: fedora_41
+  subrepo: release
+  srcname: mingw-p11-kit
+  binnames:
+    - mingw32-p11-kit
+    - mingw64-p11-kit
+  visiblename: mingw-p11-kit
+  version: 0.23.16.1
+  origversion: 0.23.16.1-14.fc40
+  status: outdated
+  summary: MinGW Library for loading and sharing PKCS#11 modules
+  licenses:
+    - BSD
+  categories:
+    - Unspecified
+  vulnerable: true
+- repo: freebsd
+  srcname: security/linux-c7-p11-kit
+  binname: linux-c7-p11-kit
+  visiblename: security/linux-c7-p11-kit
+  version: 0.23.5
+  origversion: 0.23.5_1
+  status: legacy
+  summary: Library for loading and enumerating of PKCS#11 modules (Linux CentOS 7.9.2009)
+  maintainers:
+    - emulation@freebsd.org
+  categories:
+    - security
+  vulnerable: true
+- repo: hpux_11_31
+  subrepo: hppa_32
+  srcname: p11_kit
+  binname: p11_kit
+  visiblename: p11_kit
+  version: 0.23.21
+  origversion: null
+  status: legacy
+  vulnerable: true
+- repo: mageia_9
+  subrepo: core/release
+  srcname: mingw-p11-kit
+  binnames:
+    - mingw32-p11-kit
+    - mingw64-p11-kit
+  visiblename: mingw-p11-kit
+  version: 0.23.20
+  origversion: 0.23.20-4.mga9
+  status: outdated
+  summary: MinGW Library for loading and sharing PKCS#11 modules
+  licenses:
+    - BSD
+  categories:
+    - Development/Other
+  vulnerable: true
+- repo: openeuler_20_03_lts_sp3
+  srcname: p11-kit
+  visiblename: p11-kit
+  version: 0.23.20
+  origversion: 0.23.20-4.oe1
+  status: outdated
+  summary: Provides a way to load and enumerate PKCS#11 modules.
+  licenses:
+    - BSD
+  categories:
+    - Unspecified
+  vulnerable: true
+- repo: openeuler_20_03_lts_sp4
+  srcname: p11-kit
+  visiblename: p11-kit
+  version: 0.23.20
+  origversion: 0.23.20-5.oe2003sp4
+  status: outdated
+  summary: Provides a way to load and enumerate PKCS#11 modules.
+  licenses:
+    - BSD
+  categories:
+    - Unspecified
+  vulnerable: true
+- repo: openkylin_1_0
+  subrepo: yangtze/main
+  srcname: p11-kit
+  binnames:
+    - libp11-kit-dev
+    - libp11-kit0
+    - p11-kit
+    - p11-kit-modules
+  visiblename: p11-kit
+  version: 0.23.20
+  origversion: 0.23.20-ok2
+  status: outdated
+  maintainers:
+    - pkg-gnutls-maint@lists.alioth.debian.org
+    - ametzler@debian.org
+  categories:
+    - libs
+  vulnerable: true
+- repo: openkylin_1_0
+  subrepo: yangtze-proposed/main
+  srcname: p11-kit
+  binnames:
+    - libp11-kit-dev
+    - libp11-kit0
+    - p11-kit
+    - p11-kit-modules
+  visiblename: p11-kit
+  version: 0.23.20
+  origversion: 0.23.20-ok2
+  status: outdated
+  maintainers:
+    - pkg-gnutls-maint@lists.alioth.debian.org
+    - ametzler@debian.org
+  categories:
+    - libs
+  vulnerable: true
+- repo: openpkg_current
+  srcname: p11kit
+  visiblename: p11kit
+  version: 0.23.20
+  origversion: null
+  status: outdated
+  summary: PKCS-11 Library
+  licenses:
+    - BSD
+  categories:
+    - Cryptography
+  vulnerable: true
+- repo: pureos_amber
+  subrepo: amber/main
+  srcname: p11-kit
+  binnames:
+    - libp11-kit-dev
+    - libp11-kit0
+    - p11-kit
+    - p11-kit-modules
+  visiblename: p11-kit
+  version: 0.23.15
+  origversion: 0.23.15-2+deb10u1
+  status: outdated
+  maintainers:
+    - pkg-gnutls-maint@lists.alioth.debian.org
+    - ametzler@debian.org
+  categories:
+    - libdevel
+  vulnerable: true
+- repo: ubuntu_16_04
+  subrepo: xenial-updates/main
+  srcname: p11-kit
+  binnames:
+    - libp11-kit-dev
+    - libp11-kit0
+    - p11-kit
+    - p11-kit-modules
+  visiblename: p11-kit
+  version: 0.23.2
+  origversion: 0.23.2-5~ubuntu16.04.2
+  status: outdated
+  maintainers:
+    - ubuntu-devel-discuss@lists.ubuntu.com
+    - ametzler@debian.org
+  categories:
+    - libs
+  vulnerable: true
+- repo: ubuntu_16_04
+  subrepo: xenial/main
+  srcname: p11-kit
+  binnames:
+    - libp11-kit-dev
+    - libp11-kit0
+    - p11-kit
+    - p11-kit-modules
+  visiblename: p11-kit
+  version: 0.23.2
+  origversion: 0.23.2-3
+  status: outdated
+  maintainers:
+    - pkg-gnutls-maint@lists.alioth.debian.org
+    - ametzler@debian.org
+  categories:
+    - libs
+  vulnerable: true
+- repo: ubuntu_18_04
+  subrepo: bionic/main
+  srcname: p11-kit
+  binnames:
+    - libp11-kit-dev
+    - libp11-kit0
+    - p11-kit
+    - p11-kit-modules
+  visiblename: p11-kit
+  version: 0.23.9
+  origversion: 0.23.9-2
+  status: outdated
+  maintainers:
+    - pkg-gnutls-maint@lists.alioth.debian.org
+    - ametzler@debian.org
+  categories:
+    - libs
+  vulnerable: true
+- repo: ubuntu_18_04
+  subrepo: bionic-updates/main
+  srcname: p11-kit
+  binnames:
+    - libp11-kit-dev
+    - libp11-kit0
+    - p11-kit
+    - p11-kit-modules
+  visiblename: p11-kit
+  version: 0.23.9
+  origversion: 0.23.9-2ubuntu0.1
+  status: outdated
+  maintainers:
+    - ubuntu-devel-discuss@lists.ubuntu.com
+    - ametzler@debian.org
+  categories:
+    - libs
+  vulnerable: true
+- repo: ubuntu_20_04
+  subrepo: focal-updates/main
+  srcname: p11-kit
+  binnames:
+    - libp11-kit-dev
+    - libp11-kit0
+    - p11-kit
+    - p11-kit-modules
+  visiblename: p11-kit
+  version: 0.23.20
+  origversion: 0.23.20-1ubuntu0.1
+  status: outdated
+  maintainers:
+    - ubuntu-devel-discuss@lists.ubuntu.com
+    - ametzler@debian.org
+  categories:
+    - libs
+  vulnerable: true
+- repo: ubuntu_20_04
+  subrepo: focal/main
+  srcname: p11-kit
+  binnames:
+    - libp11-kit-dev
+    - libp11-kit0
+    - p11-kit
+    - p11-kit-modules
+  visiblename: p11-kit
+  version: 0.23.20
+  origversion: 0.23.20-1build1
+  status: outdated
+  maintainers:
+    - pkg-gnutls-maint@lists.alioth.debian.org
+    - ametzler@debian.org
+  categories:
+    - libs
+  vulnerable: true
 - repo: aix_osp
   srcname: p11-kit
   visiblename: p11-kit
@@ -157,6 +531,39 @@
   version: "0.9"
   origversion: 0.9-1
   status: legacy
+- repo: manjaro_testing
+  subrepo: core
+  srcname: p11-kit
+  binname: p11-kit-docs
+  visiblename: p11-kit-docs
+  version: 0.26.5
+  origversion: 0.26.5-1
+  status: newest
+  summary: Loads and enumerates PKCS#11 modules (documentation)
+  licenses:
+    - BSD-3-Clause
+- repo: manjaro_testing
+  subrepo: core
+  srcname: p11-kit
+  binname: p11-kit
+  visiblename: p11-kit
+  version: 0.26.5
+  origversion: 0.26.5-1
+  status: newest
+  summary: Loads and enumerates PKCS#11 modules
+  licenses:
+    - BSD-3-Clause
+- repo: manjaro_testing
+  subrepo: multilib
+  srcname: lib32-p11-kit
+  binname: lib32-p11-kit
+  visiblename: lib32-p11-kit
+  version: 0.26.5
+  origversion: 0.26.5-1
+  status: newest
+  summary: Loads and enumerates PKCS#11 modules (32-bit library)
+  licenses:
+    - BSD-3-Clause
 - repo: aixtoolbox
   srcname: p11-kit
   visiblename: p11-kit
@@ -168,6 +575,50 @@
     - BSD-3-Clause
   categories:
     - Development/Libraries/C and C++
+- repo: manjaro_unstable
+  subrepo: multilib
+  srcname: lib32-p11-kit
+  binname: lib32-p11-kit
+  visiblename: lib32-p11-kit
+  version: 0.26.5
+  origversion: 0.26.5-1
+  status: newest
+  summary: Loads and enumerates PKCS#11 modules (32-bit library)
+  licenses:
+    - BSD-3-Clause
+- repo: manjaro_unstable
+  subrepo: core
+  srcname: p11-kit
+  binname: p11-kit-docs
+  visiblename: p11-kit-docs
+  version: 0.26.5
+  origversion: 0.26.5-1
+  status: newest
+  summary: Loads and enumerates PKCS#11 modules (documentation)
+  licenses:
+    - BSD-3-Clause
+- repo: manjaro_unstable
+  subrepo: core
+  srcname: p11-kit
+  binname: p11-kit
+  visiblename: p11-kit
+  version: 0.26.5
+  origversion: 0.26.5-1
+  status: newest
+  summary: Loads and enumerates PKCS#11 modules
+  licenses:
+    - BSD-3-Clause
+- repo: manjaro_unstable
+  subrepo: core
+  srcname: p11-kit
+  binname: libp11-kit
+  visiblename: libp11-kit
+  version: 0.26.5
+  origversion: 0.26.5-1
+  status: newest
+  summary: Loads and enumerates PKCS#11 modules (library)
+  licenses:
+    - BSD-3-Clause
 - repo: aixtoolbox
   srcname: p11-kit
   visiblename: p11-kit
@@ -179,6 +630,74 @@
     - BSD-3-Clause
   categories:
     - Development/Libraries/C and C++
+- repo: almalinux_8
+  subrepo: BaseOS
+  srcname: p11-kit
+  visiblename: p11-kit
+  version: 0.23.22
+  origversion: 0.23.22-2.el8
+  status: outdated
+  summary: Library for loading and sharing PKCS#11 modules
+  maintainers:
+    - packager@almalinux.org
+  licenses:
+    - BSD-3-Clause
+  categories:
+    - Unspecified
+- repo: eurolinux_8
+  subrepo: baseos
+  srcname: p11-kit
+  visiblename: p11-kit
+  version: 0.23.22
+  origversion: 0.23.22-1.el8
+  status: outdated
+  summary: Library for loading and sharing PKCS#11 modules
+  licenses:
+    - BSD
+  categories:
+    - Unspecified
+- repo: slackwarearm_15_0
+  subrepo: patches
+  binname: p11-kit
+  visiblename: p11-kit
+  version: 0.26.5
+  origversion: null
+  status: newest
+  maintainers:
+    - volkerdi@slackware.com
+- repo: aix_osp
+  srcname: p11-kit
+  visiblename: p11-kit
+  version: "0.14"
+  origversion: 0.14-1
+  status: outdated
+- repo: aix_osp
+  srcname: p11-kit
+  visiblename: p11-kit
+  version: "0.3"
+  origversion: 0.3-1
+  status: legacy
+- repo: aerynos
+  srcname: p11-kit
+  visiblename: p11-kit
+  version: 0.26.5
+  origversion: null
+  status: newest
+  summary: Loads and enumerates PKCS#11 modules
+  licenses:
+    - GPL-2.0-or-later
+- repo: aix_osp
+  srcname: p11-kit
+  visiblename: p11-kit
+  version: "0.11"
+  origversion: 0.11-1
+  status: legacy
+- repo: aix_osp
+  srcname: p11-kit
+  visiblename: p11-kit
+  version: "0.12"
+  origversion: 0.12-1
+  status: legacy
 - repo: almalinux_9
   subrepo: BaseOS
   srcname: p11-kit
@@ -262,20 +781,6 @@
     - fabian@affolter-engineering.ch
   licenses:
     - BSD-3-Clause
-- repo: centos_stream_8
-  subrepo: BaseOS
-  srcname: p11-kit
-  visiblename: p11-kit
-  version: 0.23.22
-  origversion: 0.23.22-2.el8
-  status: outdated
-  summary: Library for loading and sharing PKCS#11 modules
-  maintainers:
-    - builder@centos.org
-  licenses:
-    - BSD-3-Clause
-  categories:
-    - Unspecified
 - repo: alpine_3_17
   subrepo: main
   srcname: p11-kit
@@ -523,16 +1028,6 @@
     - alpine@ptrcnull.me
   licenses:
     - BSD-3-Clause
-- repo: crux_37
-  subrepo: compat-32
-  srcname: p11-kit-32
-  visiblename: p11-kit-32
-  version: 0.25.5
-  origversion: null
-  status: outdated
-  summary: Provides a way to load and enumerate PKCS#11 modules
-  maintainers:
-    - compat-32-ports@crux.nu
 - repo: alpine_3_21
   subrepo: main
   srcname: p11-kit
@@ -767,23 +1262,6 @@
     - alpine@ptrcnull.me
   licenses:
     - BSD-3-Clause
-- repo: openkylin_2_0
-  subrepo: nile-proposed/main
-  srcname: p11-kit
-  binnames:
-    - libp11-kit-dev
-    - libp11-kit0
-    - p11-kit
-    - p11-kit-modules
-    - p11-kit-doc
-  visiblename: p11-kit
-  version: 0.25.3
-  origversion: 0.25.3-ok1
-  status: outdated
-  maintainers:
-    - packaging@lists.openkylin.top
-  categories:
-    - libs
 - repo: alpine_3_24
   subrepo: main
   srcname: p11-kit
@@ -1263,17 +1741,6 @@
   summary: Loads and enumerates PKCS#11 modules (library)
   licenses:
     - BSD-3-Clause
-- repo: parabola
-  subrepo: core
-  srcname: p11-kit
-  binname: libp11-kit
-  visiblename: libp11-kit
-  version: 0.26.5
-  origversion: 0.26.5-1
-  status: newest
-  summary: Loads and enumerates PKCS#11 modules (library)
-  licenses:
-    - BSD-3-Clause
 - repo: artix
   subrepo: lib32
   srcname: lib32-p11-kit
@@ -1335,6 +1802,20 @@
     - bugs@centos.org
   licenses:
     - BSD
+  categories:
+    - Unspecified
+- repo: centos_stream_8
+  subrepo: BaseOS
+  srcname: p11-kit
+  visiblename: p11-kit
+  version: 0.23.22
+  origversion: 0.23.22-2.el8
+  status: outdated
+  summary: Library for loading and sharing PKCS#11 modules
+  maintainers:
+    - builder@centos.org
+  licenses:
+    - BSD-3-Clause
   categories:
     - Unspecified
 - repo: centos_stream_9
@@ -1640,18 +2121,26 @@
   summary: Provides a standard configuration setup for installing PKCS#11 modules in such a way that they're discoverable.
   licenses:
     - BSD
-- repo: eurolinux_8
-  subrepo: baseos
+- repo: crux_37
+  subrepo: compat-32
+  srcname: p11-kit-32
+  visiblename: p11-kit-32
+  version: 0.25.5
+  origversion: null
+  status: outdated
+  summary: Provides a way to load and enumerate PKCS#11 modules
+  maintainers:
+    - compat-32-ports@crux.nu
+- repo: crux_38
+  subrepo: opt
   srcname: p11-kit
   visiblename: p11-kit
-  version: 0.23.22
-  origversion: 0.23.22-1.el8
-  status: outdated
-  summary: Library for loading and sharing PKCS#11 modules
-  licenses:
-    - BSD
-  categories:
-    - Unspecified
+  version: 0.26.5
+  origversion: null
+  status: newest
+  summary: Provides a way to load and enumerate PKCS#11 modules
+  maintainers:
+    - tbier@posteo.de
 - repo: crux_38
   subrepo: compat-32
   srcname: p11-kit-32
@@ -1777,17 +2266,28 @@
     - ametzler@debian.org
   categories:
     - misc
-- repo: msys2_msys2
-  subrepo: x86_64
+- repo: manjaro_stable
+  subrepo: core
+  srcname: p11-kit
+  binname: libp11-kit
+  visiblename: libp11-kit
+  version: 0.26.5
+  origversion: 0.26.5-1
+  status: newest
+  summary: Loads and enumerates PKCS#11 modules (library)
+  licenses:
+    - BSD-3-Clause
+- repo: manjaro_stable
+  subrepo: core
   srcname: p11-kit
   binname: p11-kit
   visiblename: p11-kit
   version: 0.26.5
   origversion: 0.26.5-1
   status: newest
-  summary: Library to work with PKCS#11 modules
+  summary: Loads and enumerates PKCS#11 modules
   licenses:
-    - spdx:BSD-3-Clause
+    - BSD-3-Clause
 - repo: debian_12
   subrepo: bookworm/main
   srcname: p11-kit
@@ -2007,7 +2507,7 @@
     - BSD-3-Clause
   categories:
     - Unspecified
-- repo: parabola
+- repo: manjaro_stable
   subrepo: core
   srcname: p11-kit
   binname: p11-kit-docs
@@ -2069,25 +2569,6 @@
   categories:
     - Unspecified
 - repo: fedora_40
-  subrepo: updates
-  srcname: p11-kit
-  binnames:
-    - p11-kit
-    - p11-kit-devel
-    - p11-kit-trust
-    - p11-kit-server
-    - p11-kit-debuginfo
-    - p11-kit-debugsource
-  visiblename: p11-kit
-  version: 0.25.5
-  origversion: 0.25.5-1.fc40
-  status: outdated
-  summary: Library for loading and sharing PKCS#11 modules
-  licenses:
-    - BSD-3-Clause
-  categories:
-    - Unspecified
-- repo: fedora_40
   subrepo: release
   srcname: p11-kit
   binnames:
@@ -2101,6 +2582,25 @@
   version: 0.25.3
   origversion: 0.25.3-4.fc40
   status: legacy
+  summary: Library for loading and sharing PKCS#11 modules
+  licenses:
+    - BSD-3-Clause
+  categories:
+    - Unspecified
+- repo: fedora_40
+  subrepo: updates
+  srcname: p11-kit
+  binnames:
+    - p11-kit
+    - p11-kit-devel
+    - p11-kit-trust
+    - p11-kit-server
+    - p11-kit-debuginfo
+    - p11-kit-debugsource
+  visiblename: p11-kit
+  version: 0.25.5
+  origversion: 0.25.5-1.fc40
+  status: outdated
   summary: Library for loading and sharing PKCS#11 modules
   licenses:
     - BSD-3-Clause
@@ -2182,39 +2682,6 @@
   categories:
     - Unspecified
 - repo: fedora_43
-  subrepo: release
-  srcname: p11-kit
-  binnames:
-    - p11-kit
-    - p11-kit-client
-    - p11-kit-devel
-    - p11-kit-trust
-    - p11-kit-server
-    - mingw32-p11-kit
-    - mingw64-p11-kit
-  visiblename: p11-kit
-  version: 0.25.8
-  origversion: 0.25.8-1.fc43
-  status: legacy
-  summary: Library for loading and sharing PKCS#11 modules
-  licenses:
-    - BSD-3-Clause
-  categories:
-    - Unspecified
-- repo: liguros_stable
-  srcname: app-crypt/p11-kit
-  visiblename: app-crypt/p11-kit
-  version: 0.25.5
-  origversion: null
-  status: outdated
-  summary: Provides a standard configuration setup for installing PKCS#11
-  maintainers:
-    - fallback-mnt-liguros@repology
-  licenses:
-    - MIT
-  categories:
-    - app-crypt
-- repo: fedora_43
   subrepo: updates
   srcname: p11-kit
   binnames:
@@ -2236,7 +2703,7 @@
     - BSD-3-Clause
   categories:
     - Unspecified
-- repo: fedora_44
+- repo: fedora_43
   subrepo: release
   srcname: p11-kit
   binnames:
@@ -2247,11 +2714,9 @@
     - p11-kit-server
     - mingw32-p11-kit
     - mingw64-p11-kit
-    - mingw32-p11-kit-debuginfo
-    - mingw64-p11-kit-debuginfo
   visiblename: p11-kit
-  version: 0.26.2
-  origversion: 0.26.2-1.fc44
+  version: 0.25.8
+  origversion: 0.25.8-1.fc43
   status: legacy
   summary: Library for loading and sharing PKCS#11 modules
   licenses:
@@ -2275,6 +2740,28 @@
   version: 0.26.5
   origversion: 0.26.5-1.fc44
   status: newest
+  summary: Library for loading and sharing PKCS#11 modules
+  licenses:
+    - BSD-3-Clause
+  categories:
+    - Unspecified
+- repo: fedora_44
+  subrepo: release
+  srcname: p11-kit
+  binnames:
+    - p11-kit
+    - p11-kit-client
+    - p11-kit-devel
+    - p11-kit-trust
+    - p11-kit-server
+    - mingw32-p11-kit
+    - mingw64-p11-kit
+    - mingw32-p11-kit-debuginfo
+    - mingw64-p11-kit-debuginfo
+  visiblename: p11-kit
+  version: 0.26.2
+  origversion: 0.26.2-1.fc44
+  status: legacy
   summary: Library for loading and sharing PKCS#11 modules
   licenses:
     - BSD-3-Clause
@@ -2326,30 +2813,17 @@
     - novel@freebsd.org
   categories:
     - security
-- repo: parabola
-  subrepo: core
-  srcname: p11-kit
-  binname: p11-kit
-  visiblename: p11-kit
+- repo: manjaro_stable
+  subrepo: multilib
+  srcname: lib32-p11-kit
+  binname: lib32-p11-kit
+  visiblename: lib32-p11-kit
   version: 0.26.5
   origversion: 0.26.5-1
   status: newest
-  summary: Loads and enumerates PKCS#11 modules
+  summary: Loads and enumerates PKCS#11 modules (32-bit library)
   licenses:
     - BSD-3-Clause
-- repo: gentoo
-  srcname: app-crypt/p11-kit
-  visiblename: app-crypt/p11-kit
-  version: 0.26.2
-  origversion: null
-  status: legacy
-  summary: Provides a standard configuration setup for installing PKCS#11
-  maintainers:
-    - maintainer-needed@gentoo.org
-  licenses:
-    - MIT
-  categories:
-    - app-crypt
 - repo: gentoo
   srcname: app-crypt/p11-kit
   visiblename: app-crypt/p11-kit
@@ -2421,10 +2895,10 @@
 - repo: ibmi
   srcname: p11-kit
   binnames:
-    - p11-kit
-    - libp11-kit0
-    - p11-kit-trust
     - p11-kit-devel
+    - p11-kit-trust
+    - libp11-kit0
+    - p11-kit
   visiblename: p11-kit
   version: 0.25.5
   origversion: 0.25.5-1
@@ -2465,15 +2939,30 @@
     - demm@kaosx.us
   licenses:
     - BSD
-- repo: slackware64_15_0
-  subrepo: slackware64
-  binname: p11-kit
-  visiblename: p11-kit
-  version: 0.24.1
+- repo: liguros_stable
+  srcname: app-crypt/p11-kit
+  visiblename: app-crypt/p11-kit
+  version: 0.25.5
   origversion: null
-  status: legacy
+  status: outdated
+  summary: Provides a standard configuration setup for installing PKCS#11
   maintainers:
-    - volkerdi@slackware.com
+    - fallback-mnt-liguros@repology
+  licenses:
+    - MIT
+  categories:
+    - app-crypt
+- repo: manjaro_testing
+  subrepo: core
+  srcname: p11-kit
+  binname: libp11-kit
+  visiblename: libp11-kit
+  version: 0.26.5
+  origversion: 0.26.5-1
+  status: newest
+  summary: Loads and enumerates PKCS#11 modules (library)
+  licenses:
+    - BSD-3-Clause
 - repo: liguros_develop
   srcname: app-crypt/p11-kit
   visiblename: app-crypt/p11-kit
@@ -2614,138 +3103,6 @@
     - Apache License
   categories:
     - System/Libraries
-- repo: manjaro_stable
-  subrepo: core
-  srcname: p11-kit
-  binname: libp11-kit
-  visiblename: libp11-kit
-  version: 0.26.5
-  origversion: 0.26.5-1
-  status: newest
-  summary: Loads and enumerates PKCS#11 modules (library)
-  licenses:
-    - BSD-3-Clause
-- repo: manjaro_stable
-  subrepo: core
-  srcname: p11-kit
-  binname: p11-kit
-  visiblename: p11-kit
-  version: 0.26.5
-  origversion: 0.26.5-1
-  status: newest
-  summary: Loads and enumerates PKCS#11 modules
-  licenses:
-    - BSD-3-Clause
-- repo: manjaro_stable
-  subrepo: core
-  srcname: p11-kit
-  binname: p11-kit-docs
-  visiblename: p11-kit-docs
-  version: 0.26.5
-  origversion: 0.26.5-1
-  status: newest
-  summary: Loads and enumerates PKCS#11 modules (documentation)
-  licenses:
-    - BSD-3-Clause
-- repo: manjaro_stable
-  subrepo: multilib
-  srcname: lib32-p11-kit
-  binname: lib32-p11-kit
-  visiblename: lib32-p11-kit
-  version: 0.26.5
-  origversion: 0.26.5-1
-  status: newest
-  summary: Loads and enumerates PKCS#11 modules (32-bit library)
-  licenses:
-    - BSD-3-Clause
-- repo: manjaro_testing
-  subrepo: multilib
-  srcname: lib32-p11-kit
-  binname: lib32-p11-kit
-  visiblename: lib32-p11-kit
-  version: 0.26.5
-  origversion: 0.26.5-1
-  status: newest
-  summary: Loads and enumerates PKCS#11 modules (32-bit library)
-  licenses:
-    - BSD-3-Clause
-- repo: manjaro_testing
-  subrepo: core
-  srcname: p11-kit
-  binname: libp11-kit
-  visiblename: libp11-kit
-  version: 0.26.5
-  origversion: 0.26.5-1
-  status: newest
-  summary: Loads and enumerates PKCS#11 modules (library)
-  licenses:
-    - BSD-3-Clause
-- repo: manjaro_testing
-  subrepo: core
-  srcname: p11-kit
-  binname: p11-kit-docs
-  visiblename: p11-kit-docs
-  version: 0.26.5
-  origversion: 0.26.5-1
-  status: newest
-  summary: Loads and enumerates PKCS#11 modules (documentation)
-  licenses:
-    - BSD-3-Clause
-- repo: manjaro_testing
-  subrepo: core
-  srcname: p11-kit
-  binname: p11-kit
-  visiblename: p11-kit
-  version: 0.26.5
-  origversion: 0.26.5-1
-  status: newest
-  summary: Loads and enumerates PKCS#11 modules
-  licenses:
-    - BSD-3-Clause
-- repo: manjaro_unstable
-  subrepo: multilib
-  srcname: lib32-p11-kit
-  binname: lib32-p11-kit
-  visiblename: lib32-p11-kit
-  version: 0.26.5
-  origversion: 0.26.5-1
-  status: newest
-  summary: Loads and enumerates PKCS#11 modules (32-bit library)
-  licenses:
-    - BSD-3-Clause
-- repo: manjaro_unstable
-  subrepo: core
-  srcname: p11-kit
-  binname: libp11-kit
-  visiblename: libp11-kit
-  version: 0.26.5
-  origversion: 0.26.5-1
-  status: newest
-  summary: Loads and enumerates PKCS#11 modules (library)
-  licenses:
-    - BSD-3-Clause
-- repo: manjaro_unstable
-  subrepo: core
-  srcname: p11-kit
-  binname: p11-kit-docs
-  visiblename: p11-kit-docs
-  version: 0.26.5
-  origversion: 0.26.5-1
-  status: newest
-  summary: Loads and enumerates PKCS#11 modules (documentation)
-  licenses:
-    - BSD-3-Clause
-- repo: manjaro_unstable
-  subrepo: core
-  srcname: p11-kit
-  binname: p11-kit
-  visiblename: p11-kit
-  version: 0.26.5
-  origversion: 0.26.5-1
-  status: newest
-  summary: Loads and enumerates PKCS#11 modules
-  licenses:
-    - BSD-3-Clause
 - repo: msys2_clang64
   srcname: mingw-w64-p11-kit
   binname: mingw-w64-clang-x86_64-p11-kit
@@ -2791,16 +3148,14 @@
 - repo: msys2_msys2
   subrepo: x86_64
   srcname: p11-kit
-  binname: libp11-kit-devel
-  visiblename: libp11-kit-devel
+  binname: p11-kit
+  visiblename: p11-kit
   version: 0.26.5
   origversion: 0.26.5-1
   status: newest
-  summary: Libp11-kit headers and libraries
+  summary: Library to work with PKCS#11 modules
   licenses:
     - spdx:BSD-3-Clause
-  categories:
-    - development
 - repo: msys2_msys2
   subrepo: x86_64
   srcname: p11-kit
@@ -2814,6 +3169,19 @@
     - spdx:BSD-3-Clause
   categories:
     - libraries
+- repo: msys2_msys2
+  subrepo: x86_64
+  srcname: p11-kit
+  binname: libp11-kit-devel
+  visiblename: libp11-kit-devel
+  version: 0.26.5
+  origversion: 0.26.5-1
+  status: newest
+  summary: Libp11-kit headers and libraries
+  licenses:
+    - spdx:BSD-3-Clause
+  categories:
+    - development
 - repo: msys2_ucrt64
   srcname: mingw-w64-p11-kit
   binname: mingw-w64-ucrt-x86_64-p11-kit
@@ -2921,23 +3289,6 @@
     - BSD
   categories:
     - Unspecified
-- repo: pardus_21
-  subrepo: main
-  srcname: p11-kit
-  binnames:
-    - libp11-kit-dev
-    - libp11-kit0
-    - p11-kit
-    - p11-kit-modules
-  visiblename: p11-kit
-  version: 0.23.22
-  origversion: 0.23.22-1
-  status: outdated
-  maintainers:
-    - pkg-gnutls-maint@lists.alioth.debian.org
-    - ametzler@debian.org
-  categories:
-    - misc
 - repo: openeuler_22_03_lts_sp3
   srcname: p11-kit
   binnames:
@@ -3014,15 +3365,6 @@
     - BSD
   categories:
     - Unspecified
-- repo: slackware64_15_0
-  subrepo: patches
-  binname: p11-kit
-  visiblename: p11-kit
-  version: 0.26.5
-  origversion: null
-  status: newest
-  maintainers:
-    - volkerdi@slackware.com
 - repo: openeuler_24_09
   srcname: p11-kit
   binnames:
@@ -3107,6 +3449,23 @@
     - Desktop (GNOME)/Libraries
 - repo: openkylin_2_0
   subrepo: nile/main
+  srcname: p11-kit
+  binnames:
+    - libp11-kit-dev
+    - libp11-kit0
+    - p11-kit
+    - p11-kit-modules
+    - p11-kit-doc
+  visiblename: p11-kit
+  version: 0.25.3
+  origversion: 0.25.3-ok1
+  status: outdated
+  maintainers:
+    - packaging@lists.openkylin.top
+  categories:
+    - libs
+- repo: openkylin_2_0
+  subrepo: nile-proposed/main
   srcname: p11-kit
   binnames:
     - libp11-kit-dev
@@ -3234,11 +3593,11 @@
   categories:
     - System/Libraries
 - repo: opensuse_leap_15_5
-  subrepo: updates/sle
+  subrepo: main/oss
   srcname: p11-kit
   visiblename: p11-kit
   version: 0.23.22
-  origversion: 0.23.22-150500.8.3.1
+  origversion: 0.23.22-150500.6.1
   status: outdated
   summary: Library to work with PKCS#11 modules
   licenses:
@@ -3246,11 +3605,11 @@
   categories:
     - Development/Libraries/C and C++
 - repo: opensuse_leap_15_5
-  subrepo: main/oss
+  subrepo: updates/sle
   srcname: p11-kit
   visiblename: p11-kit
   version: 0.23.22
-  origversion: 0.23.22-150500.6.1
+  origversion: 0.23.22-150500.8.3.1
   status: outdated
   summary: Library to work with PKCS#11 modules
   licenses:
@@ -3314,6 +3673,101 @@
     - n.mavrogiannopoulos@gmail.com
   categories:
     - libs
+- repo: parabola
+  subrepo: core
+  srcname: p11-kit
+  binname: libp11-kit
+  visiblename: libp11-kit
+  version: 0.26.5
+  origversion: 0.26.5-1
+  status: newest
+  summary: Loads and enumerates PKCS#11 modules (library)
+  licenses:
+    - BSD-3-Clause
+- repo: parabola
+  subrepo: core
+  srcname: p11-kit
+  binname: p11-kit-docs
+  visiblename: p11-kit-docs
+  version: 0.26.5
+  origversion: 0.26.5-1
+  status: newest
+  summary: Loads and enumerates PKCS#11 modules (documentation)
+  licenses:
+    - BSD-3-Clause
+- repo: parabola
+  subrepo: core
+  srcname: p11-kit
+  binname: p11-kit
+  visiblename: p11-kit
+  version: 0.26.5
+  origversion: 0.26.5-1
+  status: newest
+  summary: Loads and enumerates PKCS#11 modules
+  licenses:
+    - BSD-3-Clause
+- repo: pardus_21
+  subrepo: main
+  srcname: p11-kit
+  binnames:
+    - libp11-kit-dev
+    - libp11-kit0
+    - p11-kit
+    - p11-kit-modules
+  visiblename: p11-kit
+  version: 0.23.22
+  origversion: 0.23.22-1
+  status: outdated
+  maintainers:
+    - pkg-gnutls-maint@lists.alioth.debian.org
+    - ametzler@debian.org
+  categories:
+    - misc
+- repo: parrot
+  subrepo: parrot/main
+  srcname: p11-kit
+  binnames:
+    - libp11-kit-dev
+    - libp11-kit0
+    - p11-kit
+    - p11-kit-modules
+    - p11-kit-doc
+  visiblename: p11-kit
+  version: 0.25.5
+  origversion: 0.25.5-3
+  status: outdated
+  maintainers:
+    - pkg-gnutls-maint@lists.alioth.debian.org
+    - ametzler@debian.org
+  categories:
+    - misc
+- repo: parrot
+  subrepo: parrot-updates/main
+  srcname: p11-kit
+  binnames:
+    - libp11-kit-dev
+    - libp11-kit0
+    - p11-kit
+    - p11-kit-modules
+    - p11-kit-doc
+  visiblename: p11-kit
+  version: 0.25.5
+  origversion: 0.25.5-3
+  status: outdated
+  maintainers:
+    - pkg-gnutls-maint@lists.alioth.debian.org
+    - ametzler@debian.org
+  categories:
+    - misc
+- repo: pclinuxos
+  srcname: p11-kit
+  visiblename: p11-kit
+  version: 0.26.2
+  origversion: 0.26.2-1pclos2026
+  status: outdated
+  summary: Load and enumerate PKCS#11 modules
+  categories:
+    - System/Libraries
 - repo: pisi_main
   subrepo: main
   srcname: util/crypt/p11-kit
@@ -3615,6 +4069,42 @@
   status: newest
   maintainers:
     - volkerdi@slackware.com
+- repo: slackware64_15_0
+  subrepo: slackware64
+  binname: p11-kit
+  visiblename: p11-kit
+  version: 0.24.1
+  origversion: null
+  status: legacy
+  maintainers:
+    - volkerdi@slackware.com
+- repo: slackware64_15_0
+  subrepo: patches
+  binname: p11-kit
+  visiblename: p11-kit
+  version: 0.26.5
+  origversion: null
+  status: newest
+  maintainers:
+    - volkerdi@slackware.com
+- repo: slackware64_current
+  subrepo: slackware64
+  binname: p11-kit
+  visiblename: p11-kit
+  version: 0.26.5
+  origversion: null
+  status: newest
+  maintainers:
+    - volkerdi@slackware.com
+- repo: slackwarearm_15_0
+  subrepo: slackware
+  binname: p11-kit
+  visiblename: p11-kit
+  version: 0.24.1
+  origversion: null
+  status: legacy
+  maintainers:
+    - volkerdi@slackware.com
 - repo: solus
   srcname: libp11-kit
   binname: libp11-kit
@@ -3805,24 +4295,6 @@
   categories:
     - libs
 - repo: ubuntu_22_04
-  subrepo: jammy/main
-  srcname: p11-kit
-  binnames:
-    - libp11-kit-dev
-    - libp11-kit0
-    - p11-kit
-    - p11-kit-modules
-    - p11-kit-doc
-  visiblename: p11-kit
-  version: 0.24.0
-  origversion: 0.24.0-6build1
-  status: outdated
-  maintainers:
-    - ubuntu-devel-discuss@lists.ubuntu.com
-    - ametzler@debian.org
-  categories:
-    - libs
-- repo: ubuntu_22_04
   subrepo: jammy-updates/main
   srcname: p11-kit
   binnames:
@@ -3840,8 +4312,8 @@
     - ametzler@debian.org
   categories:
     - libs
-- repo: ubuntu_24_04
-  subrepo: noble-updates/main
+- repo: ubuntu_22_04
+  subrepo: jammy/main
   srcname: p11-kit
   binnames:
     - libp11-kit-dev
@@ -3850,8 +4322,8 @@
     - p11-kit-modules
     - p11-kit-doc
   visiblename: p11-kit
-  version: 0.25.3
-  origversion: 0.25.3-4ubuntu2.2
+  version: 0.24.0
+  origversion: 0.24.0-6build1
   status: outdated
   maintainers:
     - ubuntu-devel-discuss@lists.ubuntu.com
@@ -3870,6 +4342,24 @@
   visiblename: p11-kit
   version: 0.25.3
   origversion: 0.25.3-4ubuntu2
+  status: outdated
+  maintainers:
+    - ubuntu-devel-discuss@lists.ubuntu.com
+    - ametzler@debian.org
+  categories:
+    - libs
+- repo: ubuntu_24_04
+  subrepo: noble-updates/main
+  srcname: p11-kit
+  binnames:
+    - libp11-kit-dev
+    - libp11-kit0
+    - p11-kit
+    - p11-kit-modules
+    - p11-kit-doc
+  visiblename: p11-kit
+  version: 0.25.3
+  origversion: 0.25.3-4ubuntu2.2
   status: outdated
   maintainers:
     - ubuntu-devel-discuss@lists.ubuntu.com
@@ -4056,295 +4546,6 @@
   summary: Provides a way to load and enumerate PKCS#11 modules.
   licenses:
     - BSD-3-Clause
-- repo: eurolinux_8
-  subrepo: baseos
-  srcname: p11-kit
-  visiblename: p11-kit
-  version: 0.23.14
-  origversion: 0.23.14-5.el8_0
-  status: legacy
-  summary: Library for loading and sharing PKCS#11 modules
-  licenses:
-    - BSD
-  categories:
-    - Unspecified
-  vulnerable: true
-- repo: adelie_current
-  subrepo: user
-  srcname: p11-kit
-  binname: p11-kit
-  visiblename: p11-kit
-  version: 0.23.20
-  origversion: 0.23.20-r0
-  status: outdated
-  summary: Library for loading and sharing PKCS#11 modules
-  maintainers:
-    - fallback-mnt-adelie@repology
-  licenses:
-    - BSD-3-Clause
-  vulnerable: true
-- repo: adelie_current
-  subrepo: user
-  srcname: p11-kit
-  binname: p11-kit-dbg
-  visiblename: p11-kit-dbg
-  version: 0.23.20
-  origversion: 0.23.20-r0
-  status: outdated
-  summary: Library for loading and sharing PKCS#11 modules (debug symbols)
-  maintainers:
-    - fallback-mnt-adelie@repology
-  licenses:
-    - BSD-3-Clause
-  vulnerable: true
-- repo: adelie_current
-  subrepo: user
-  srcname: p11-kit
-  binname: p11-kit-dev
-  visiblename: p11-kit-dev
-  version: 0.23.20
-  origversion: 0.23.20-r0
-  status: outdated
-  summary: Library for loading and sharing PKCS#11 modules (development files)
-  maintainers:
-    - fallback-mnt-adelie@repology
-  licenses:
-    - BSD-3-Clause
-  vulnerable: true
-- repo: adelie_current
-  subrepo: user
-  srcname: p11-kit
-  binname: p11-kit-doc
-  visiblename: p11-kit-doc
-  version: 0.23.20
-  origversion: 0.23.20-r0
-  status: outdated
-  summary: Library for loading and sharing PKCS#11 modules (documentation)
-  maintainers:
-    - fallback-mnt-adelie@repology
-  licenses:
-    - BSD-3-Clause
-  vulnerable: true
-- repo: adelie_current
-  subrepo: user
-  srcname: p11-kit
-  binname: p11-kit-trust
-  visiblename: p11-kit-trust
-  version: 0.23.20
-  origversion: 0.23.20-r0
-  status: outdated
-  summary: System trust module from p11-kit
-  maintainers:
-    - fallback-mnt-adelie@repology
-  licenses:
-    - BSD-3-Clause
-  vulnerable: true
-- repo: amazon_2
-  srcname: p11-kit
-  visiblename: p11-kit
-  version: 0.23.19
-  origversion: 0.23.19-1.amzn2
-  status: legacy
-  summary: Library for loading and sharing PKCS#11 modules
-  licenses:
-    - BSD
-  categories:
-    - Unspecified
-  vulnerable: true
-- repo: amazon_2
-  srcname: p11-kit
-  visiblename: p11-kit
-  version: 0.23.21
-  origversion: 0.23.21-2.amzn2.0.1
-  status: legacy
-  summary: Library for loading and sharing PKCS#11 modules
-  licenses:
-    - BSD
-  categories:
-    - Unspecified
-  vulnerable: true
-- repo: amazon_2
-  srcname: p11-kit
-  visiblename: p11-kit
-  version: 0.23.5
-  origversion: 0.23.5-3.amzn2.0.2
-  status: legacy
-  summary: Library for loading and sharing PKCS#11 modules
-  licenses:
-    - BSD
-  categories:
-    - Unspecified
-  vulnerable: true
-- repo: amazon_2
-  srcname: p11-kit
-  visiblename: p11-kit
-  version: 0.23.5
-  origversion: 0.23.5-3.amzn2
-  status: legacy
-  summary: Library for loading and sharing PKCS#11 modules
-  licenses:
-    - BSD
-  categories:
-    - Unspecified
-  vulnerable: true
-- repo: centos_7
-  subrepo: os
-  srcname: p11-kit
-  visiblename: p11-kit
-  version: 0.23.5
-  origversion: 0.23.5-3.el7
-  status: outdated
-  summary: Library for loading and sharing PKCS#11 modules
-  licenses:
-    - BSD
-  categories:
-    - Unspecified
-  vulnerable: true
-- repo: cygwin
-  srcname: mingw64-i686-p11-kit
-  binname: mingw64-i686-p11-kit
-  visiblename: mingw64-i686-p11-kit
-  version: 0.23.10
-  origversion: 0.23.10-1
-  status: outdated
-  summary: PKCS#11 module library for Win32 toolchain
-  maintainers:
-    - orphaned@cygwin
-  categories:
-    - Libs
-  vulnerable: true
-- repo: cygwin
-  srcname: mingw64-x86_64-p11-kit
-  binname: mingw64-x86_64-p11-kit
-  visiblename: mingw64-x86_64-p11-kit
-  version: 0.23.10
-  origversion: 0.23.10-1
-  status: outdated
-  summary: PKCS#11 module library for Win64 toolchain
-  maintainers:
-    - orphaned@cygwin
-  categories:
-    - Libs
-  vulnerable: true
-- repo: deepin_unstable
-  subrepo: main
-  srcname: p11-kit
-  binnames:
-    - libp11-kit-dev
-    - libp11-kit0
-    - p11-kit
-    - p11-kit-modules
-  visiblename: p11-kit
-  version: 0.23.15.1
-  origversion: 0.23.15.1-1+eagle
-  status: outdated
-  maintainers:
-    - pkg-gnutls-maint@lists.alioth.debian.org
-    - ametzler@debian.org
-  categories:
-    - libs
-  vulnerable: true
-- repo: eurolinux_8
-  subrepo: baseos
-  srcname: p11-kit
-  visiblename: p11-kit
-  version: 0.23.14
-  origversion: 0.23.14-4.el8
-  status: legacy
-  summary: Library for loading and sharing PKCS#11 modules
-  licenses:
-    - BSD
-  categories:
-    - Unspecified
-  vulnerable: true
-- repo: fedora_39
-  subrepo: release
-  srcname: mingw-p11-kit
-  binnames:
-    - mingw32-p11-kit
-    - mingw64-p11-kit
-  visiblename: mingw-p11-kit
-  version: 0.23.16.1
-  origversion: 0.23.16.1-12.fc39
-  status: outdated
-  summary: MinGW Library for loading and sharing PKCS#11 modules
-  licenses:
-    - BSD
-  categories:
-    - Unspecified
-  vulnerable: true
-- repo: fedora_40
-  subrepo: release
-  srcname: mingw-p11-kit
-  binnames:
-    - mingw32-p11-kit
-    - mingw64-p11-kit
-  visiblename: mingw-p11-kit
-  version: 0.23.16.1
-  origversion: 0.23.16.1-14.fc40
-  status: outdated
-  summary: MinGW Library for loading and sharing PKCS#11 modules
-  licenses:
-    - BSD
-  categories:
-    - Unspecified
-  vulnerable: true
-- repo: fedora_41
-  subrepo: release
-  srcname: mingw-p11-kit
-  binnames:
-    - mingw32-p11-kit
-    - mingw64-p11-kit
-  visiblename: mingw-p11-kit
-  version: 0.23.16.1
-  origversion: 0.23.16.1-14.fc40
-  status: outdated
-  summary: MinGW Library for loading and sharing PKCS#11 modules
-  licenses:
-    - BSD
-  categories:
-    - Unspecified
-  vulnerable: true
-- repo: freebsd
-  srcname: security/linux-c7-p11-kit
-  binname: linux-c7-p11-kit
-  visiblename: security/linux-c7-p11-kit
-  version: 0.23.5
-  origversion: 0.23.5_1
-  status: legacy
-  summary: Library for loading and enumerating of PKCS#11 modules (Linux CentOS 7.9.2009)
-  maintainers:
-    - emulation@freebsd.org
-  categories:
-    - security
-  vulnerable: true
-- repo: hpux_11_31
-  subrepo: hppa_32
-  srcname: p11_kit
-  binname: p11_kit
-  visiblename: p11_kit
-  version: 0.23.21
-  origversion: null
-  status: legacy
-  vulnerable: true
-- repo: hpux_11_31
-  subrepo: hppa_32
-  srcname: p11_kit
-  binname: p11_kit
-  visiblename: p11_kit
-  version: 0.23.2
-  origversion: null
-  status: legacy
-  vulnerable: true
-- repo: hpux_11_31
-  subrepo: ia64_32
-  srcname: p11_kit
-  binname: p11_kit
-  visiblename: p11_kit
-  version: 0.23.2
-  origversion: null
-  status: legacy
-  vulnerable: true
 - repo: hpux_11_31
   subrepo: ia64_64
   srcname: p11_kit
@@ -4362,218 +4563,4 @@
   version: 0.23.2
   origversion: null
   status: legacy
-  vulnerable: true
-- repo: mageia_9
-  subrepo: core/release
-  srcname: mingw-p11-kit
-  binnames:
-    - mingw32-p11-kit
-    - mingw64-p11-kit
-  visiblename: mingw-p11-kit
-  version: 0.23.20
-  origversion: 0.23.20-4.mga9
-  status: outdated
-  summary: MinGW Library for loading and sharing PKCS#11 modules
-  licenses:
-    - BSD
-  categories:
-    - Development/Other
-  vulnerable: true
-- repo: openeuler_20_03_lts_sp3
-  srcname: p11-kit
-  visiblename: p11-kit
-  version: 0.23.20
-  origversion: 0.23.20-4.oe1
-  status: outdated
-  summary: Provides a way to load and enumerate PKCS#11 modules.
-  licenses:
-    - BSD
-  categories:
-    - Unspecified
-  vulnerable: true
-- repo: openeuler_20_03_lts_sp4
-  srcname: p11-kit
-  visiblename: p11-kit
-  version: 0.23.20
-  origversion: 0.23.20-5.oe2003sp4
-  status: outdated
-  summary: Provides a way to load and enumerate PKCS#11 modules.
-  licenses:
-    - BSD
-  categories:
-    - Unspecified
-  vulnerable: true
-- repo: openkylin_1_0
-  subrepo: yangtze/main
-  srcname: p11-kit
-  binnames:
-    - libp11-kit-dev
-    - libp11-kit0
-    - p11-kit
-    - p11-kit-modules
-  visiblename: p11-kit
-  version: 0.23.20
-  origversion: 0.23.20-ok2
-  status: outdated
-  maintainers:
-    - pkg-gnutls-maint@lists.alioth.debian.org
-    - ametzler@debian.org
-  categories:
-    - libs
-  vulnerable: true
-- repo: openkylin_1_0
-  subrepo: yangtze-proposed/main
-  srcname: p11-kit
-  binnames:
-    - libp11-kit-dev
-    - libp11-kit0
-    - p11-kit
-    - p11-kit-modules
-  visiblename: p11-kit
-  version: 0.23.20
-  origversion: 0.23.20-ok2
-  status: outdated
-  maintainers:
-    - pkg-gnutls-maint@lists.alioth.debian.org
-    - ametzler@debian.org
-  categories:
-    - libs
-  vulnerable: true
-- repo: openpkg_current
-  srcname: p11kit
-  visiblename: p11kit
-  version: 0.23.20
-  origversion: null
-  status: outdated
-  summary: PKCS-11 Library
-  licenses:
-    - BSD
-  categories:
-    - Cryptography
-  vulnerable: true
-- repo: pureos_amber
-  subrepo: amber/main
-  srcname: p11-kit
-  binnames:
-    - libp11-kit-dev
-    - libp11-kit0
-    - p11-kit
-    - p11-kit-modules
-  visiblename: p11-kit
-  version: 0.23.15
-  origversion: 0.23.15-2+deb10u1
-  status: outdated
-  maintainers:
-    - pkg-gnutls-maint@lists.alioth.debian.org
-    - ametzler@debian.org
-  categories:
-    - libdevel
-  vulnerable: true
-- repo: ubuntu_16_04
-  subrepo: xenial/main
-  srcname: p11-kit
-  binnames:
-    - libp11-kit-dev
-    - libp11-kit0
-    - p11-kit
-    - p11-kit-modules
-  visiblename: p11-kit
-  version: 0.23.2
-  origversion: 0.23.2-3
-  status: outdated
-  maintainers:
-    - pkg-gnutls-maint@lists.alioth.debian.org
-    - ametzler@debian.org
-  categories:
-    - libs
-  vulnerable: true
-- repo: ubuntu_16_04
-  subrepo: xenial-updates/main
-  srcname: p11-kit
-  binnames:
-    - libp11-kit-dev
-    - libp11-kit0
-    - p11-kit
-    - p11-kit-modules
-  visiblename: p11-kit
-  version: 0.23.2
-  origversion: 0.23.2-5~ubuntu16.04.2
-  status: outdated
-  maintainers:
-    - ubuntu-devel-discuss@lists.ubuntu.com
-    - ametzler@debian.org
-  categories:
-    - libs
-  vulnerable: true
-- repo: ubuntu_18_04
-  subrepo: bionic/main
-  srcname: p11-kit
-  binnames:
-    - libp11-kit-dev
-    - libp11-kit0
-    - p11-kit
-    - p11-kit-modules
-  visiblename: p11-kit
-  version: 0.23.9
-  origversion: 0.23.9-2
-  status: outdated
-  maintainers:
-    - pkg-gnutls-maint@lists.alioth.debian.org
-    - ametzler@debian.org
-  categories:
-    - libs
-  vulnerable: true
-- repo: ubuntu_18_04
-  subrepo: bionic-updates/main
-  srcname: p11-kit
-  binnames:
-    - libp11-kit-dev
-    - libp11-kit0
-    - p11-kit
-    - p11-kit-modules
-  visiblename: p11-kit
-  version: 0.23.9
-  origversion: 0.23.9-2ubuntu0.1
-  status: outdated
-  maintainers:
-    - ubuntu-devel-discuss@lists.ubuntu.com
-    - ametzler@debian.org
-  categories:
-    - libs
-  vulnerable: true
-- repo: ubuntu_20_04
-  subrepo: focal-updates/main
-  srcname: p11-kit
-  binnames:
-    - libp11-kit-dev
-    - libp11-kit0
-    - p11-kit
-    - p11-kit-modules
-  visiblename: p11-kit
-  version: 0.23.20
-  origversion: 0.23.20-1ubuntu0.1
-  status: outdated
-  maintainers:
-    - ubuntu-devel-discuss@lists.ubuntu.com
-    - ametzler@debian.org
-  categories:
-    - libs
-  vulnerable: true
-- repo: ubuntu_20_04
-  subrepo: focal/main
-  srcname: p11-kit
-  binnames:
-    - libp11-kit-dev
-    - libp11-kit0
-    - p11-kit
-    - p11-kit-modules
-  visiblename: p11-kit
-  version: 0.23.20
-  origversion: 0.23.20-1build1
-  status: outdated
-  maintainers:
-    - pkg-gnutls-maint@lists.alioth.debian.org
-    - ametzler@debian.org
-  categories:
-    - libs
   vulnerable: true
