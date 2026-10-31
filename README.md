@@ -14,11 +14,11 @@ x install p11-kit
 
 ## Code insight
 
-Total: **85,549** lines of code across **303** files in the top 5 languages.
+Total: **85,557** lines of code across **303** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| C | 68,766 | 10,744 | 14,842 | 184 |
+| C | 68,774 | 10,746 | 14,843 | 184 |
 | CHeader | 8,587 | 2,832 | 1,948 | 72 |
 | Sh | 2,332 | 147 | 412 | 26 |
 | Xml | 2,088 | 0 | 243 | 11 |
@@ -33,27 +33,27 @@ Total: **85,549** lines of code across **303** files in the top 5 languages.
 ## Release
 
 - **Latest**: `0.26.5` (2026-08-06)
-- **Last commit**: 2026-10-29
+- **Last commit**: 2026-10-30
 - **Assets in release**: 2
 
 ## Popularity
 
-- **Stars**: 203 · **Forks**: 119 · **Open issues**: 245 · **Contributors**: 92
+- **Stars**: 203 · **Forks**: 119 · **Open issues**: 245 · **Contributors**: 93
 
 ## Totals (cumulative)
 
-- **Releases**: 41 · **Merged PRs**: 486 · **Open PRs**: 13 · **Closed issues**: 185 · **Open issues**: 60 · **Commits**: 1568
+- **Releases**: 41 · **Merged PRs**: 487 · **Open PRs**: 11 · **Closed issues**: 185 · **Open issues**: 60 · **Commits**: 1569
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-30 | 0 | 4 | 4 | 0 | 1 | 5 |
-| last60d | 2026-08-31 | 0 | 8 | 6 | 0 | 1 | 16 |
-| 90d | 2026-08-01 | 1 | 9 | 7 | 1 | 1 | 19 |
-| last180d | 2026-05-03 | 3 | 31 | 7 | 5 | 1 | 44 |
-| 360d | 2025-11-04 | 6 | 43 | 8 | 7 | 4 | 59 |
-| last720d | 2024-11-09 | 11 | 76 | 9 | 25 | 14 | 104 |
+| 30d | 2026-10-01 | 0 | 5 | 3 | 0 | 1 | 6 |
+| last60d | 2026-09-01 | 0 | 8 | 4 | 0 | 1 | 17 |
+| 90d | 2026-08-02 | 1 | 10 | 5 | 1 | 1 | 20 |
+| last180d | 2026-05-04 | 3 | 32 | 5 | 5 | 1 | 45 |
+| 360d | 2025-11-05 | 6 | 44 | 6 | 7 | 4 | 60 |
+| last720d | 2024-11-10 | 11 | 77 | 7 | 25 | 14 | 105 |
 
 ## Release assets
 
@@ -90,4 +90,4 @@ Install metadata for p11-kit lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261030.yml` · 2026-10-30T05:34:28Z._
+_Snapshot: `data/card/261031.yml` · 2026-10-31T05:20:40Z._
