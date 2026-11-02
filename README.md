@@ -48,12 +48,12 @@ Total: **85,557** lines of code across **303** files in the top 5 languages.
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-02 | 0 | 5 | 3 | 0 | 1 | 6 |
-| last60d | 2026-09-02 | 0 | 8 | 4 | 0 | 1 | 12 |
-| 90d | 2026-08-03 | 1 | 10 | 5 | 1 | 1 | 18 |
-| last180d | 2026-05-05 | 3 | 32 | 5 | 5 | 1 | 45 |
-| 360d | 2025-11-06 | 6 | 44 | 6 | 7 | 4 | 60 |
-| last720d | 2024-11-11 | 11 | 77 | 7 | 25 | 14 | 105 |
+| 30d | 2026-10-03 | 0 | 5 | 3 | 0 | 1 | 6 |
+| last60d | 2026-09-03 | 0 | 8 | 4 | 0 | 1 | 12 |
+| 90d | 2026-08-04 | 1 | 10 | 5 | 1 | 1 | 18 |
+| last180d | 2026-05-06 | 3 | 32 | 5 | 5 | 1 | 45 |
+| 360d | 2025-11-07 | 6 | 44 | 6 | 7 | 4 | 60 |
+| last720d | 2024-11-12 | 11 | 77 | 7 | 25 | 14 | 105 |
 
 ## Release assets
 
@@ -90,4 +90,4 @@ Install metadata for p11-kit lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261101.yml` · 2026-11-01T05:50:06Z._
+_Snapshot: `data/card/261102.yml` · 2026-11-02T05:48:32Z._
