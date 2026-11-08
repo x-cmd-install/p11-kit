@@ -42,18 +42,18 @@ Total: **85,637** lines of code across **303** files in the top 5 languages.
 
 ## Totals (cumulative)
 
-- **Releases**: 41 · **Merged PRs**: 491 · **Open PRs**: 10 · **Closed issues**: 185 · **Open issues**: 60 · **Commits**: 1574
+- **Releases**: 41 · **Merged PRs**: 491 · **Open PRs**: 11 · **Closed issues**: 185 · **Open issues**: 60 · **Commits**: 1574
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-08 | 0 | 8 | 2 | 0 | 1 | 9 |
-| last60d | 2026-09-08 | 0 | 12 | 3 | 0 | 1 | 17 |
-| 90d | 2026-08-09 | 0 | 13 | 4 | 1 | 1 | 23 |
-| last180d | 2026-05-11 | 3 | 36 | 4 | 5 | 1 | 50 |
-| 360d | 2025-11-12 | 6 | 48 | 5 | 7 | 4 | 65 |
-| last720d | 2024-11-17 | 11 | 80 | 6 | 24 | 14 | 110 |
+| 30d | 2026-10-09 | 0 | 8 | 3 | 0 | 1 | 8 |
+| last60d | 2026-09-09 | 0 | 11 | 4 | 0 | 1 | 13 |
+| 90d | 2026-08-10 | 0 | 13 | 5 | 1 | 1 | 23 |
+| last180d | 2026-05-12 | 3 | 36 | 5 | 5 | 1 | 49 |
+| 360d | 2025-11-13 | 6 | 48 | 6 | 7 | 4 | 65 |
+| last720d | 2024-11-18 | 11 | 80 | 7 | 24 | 14 | 110 |
 
 ## Release assets
 
@@ -90,4 +90,4 @@ Install metadata for p11-kit lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261107.yml` · 2026-11-07T05:47:18Z._
+_Snapshot: `data/card/261108.yml` · 2026-11-08T05:49:53Z._
