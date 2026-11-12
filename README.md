@@ -38,7 +38,7 @@ Total: **85,896** lines of code across **303** files in the top 5 languages.
 
 ## Popularity
 
-- **Stars**: 203 · **Forks**: 119 · **Open issues**: 245 · **Contributors**: 94
+- **Stars**: 204 · **Forks**: 119 · **Open issues**: 245 · **Contributors**: 94
 
 ## Totals (cumulative)
 
@@ -48,12 +48,12 @@ Total: **85,896** lines of code across **303** files in the top 5 languages.
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-12 | 0 | 9 | 1 | 0 | 1 | 11 |
-| last60d | 2026-09-12 | 0 | 13 | 2 | 0 | 1 | 16 |
-| 90d | 2026-08-13 | 0 | 15 | 3 | 1 | 1 | 26 |
-| last180d | 2026-05-15 | 3 | 38 | 3 | 5 | 1 | 52 |
-| 360d | 2025-11-16 | 6 | 50 | 4 | 7 | 4 | 68 |
-| last720d | 2024-11-21 | 11 | 82 | 5 | 25 | 13 | 113 |
+| 30d | 2026-10-13 | 0 | 9 | 1 | 0 | 1 | 11 |
+| last60d | 2026-09-13 | 0 | 13 | 2 | 0 | 1 | 16 |
+| 90d | 2026-08-14 | 0 | 15 | 3 | 1 | 1 | 26 |
+| last180d | 2026-05-16 | 3 | 38 | 3 | 5 | 1 | 52 |
+| 360d | 2025-11-17 | 6 | 50 | 4 | 7 | 4 | 68 |
+| last720d | 2024-11-22 | 11 | 82 | 5 | 25 | 12 | 113 |
 
 ## Release assets
 
@@ -64,7 +64,7 @@ Total: **85,896** lines of code across **303** files in the top 5 languages.
 
 ## Distribution status
 
-Reported by **335** distros on [repology.org](https://repology.org/project/p11-kit). **108** are ✅ on the latest upstream release, **169** are ⚠️ on an older version.
+Reported by **334** distros on [repology.org](https://repology.org/project/p11-kit). **108** are ✅ on the latest upstream release, **168** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -90,4 +90,4 @@ Install metadata for p11-kit lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261111.yml` · 2026-11-11T05:57:34Z._
+_Snapshot: `data/card/261112.yml` · 2026-11-12T07:02:35Z._
