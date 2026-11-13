@@ -32,54 +32,54 @@ x install p11-kit
 
 ## 发布
 
-- **最新版本**: `0.26.5` (2026-08-06)
-- **最近提交**: 2026-11-10
+- **最新版本**: `0.26.6` (2026-11-12)
+- **最近提交**: 2026-11-12
 - **Release 含资产**: 2 个
 
 ## 流行度
 
-- **Star**: 204 · **Fork**: 119 · **开放 issue**: 245 · **贡献者**: 94
+- **Star**: 204 · **Fork**: 119 · **开放 issue**: 246 · **贡献者**: 95
 
 ## 累计统计
 
-- **发布数**: 41 · **已合并 PR**: 493 · **开放 PR**: 9 · **已关闭 issue**: 186 · **开放 issue**: 59 · **提交数**: 1577
+- **发布数**: 42 · **已合并 PR**: 494 · **开放 PR**: 9 · **已关闭 issue**: 186 · **开放 issue**: 60 · **提交数**: 1580
 
 ## 最近活动
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-13 | 0 | 9 | 1 | 0 | 1 | 11 |
-| last60d | 2026-09-13 | 0 | 13 | 2 | 0 | 1 | 16 |
-| 90d | 2026-08-14 | 0 | 15 | 3 | 1 | 1 | 26 |
-| last180d | 2026-05-16 | 3 | 38 | 3 | 5 | 1 | 52 |
-| 360d | 2025-11-17 | 6 | 50 | 4 | 7 | 4 | 68 |
-| last720d | 2024-11-22 | 11 | 82 | 5 | 25 | 12 | 113 |
+| 30d | 2026-10-14 | 1 | 10 | 1 | 0 | 2 | 14 |
+| last60d | 2026-09-14 | 1 | 14 | 2 | 0 | 2 | 19 |
+| 90d | 2026-08-15 | 1 | 16 | 3 | 1 | 2 | 29 |
+| last180d | 2026-05-17 | 4 | 39 | 3 | 5 | 2 | 55 |
+| 360d | 2025-11-18 | 7 | 51 | 4 | 7 | 5 | 71 |
+| last720d | 2024-11-23 | 12 | 83 | 5 | 25 | 13 | 116 |
 
 ## Release 资产
 
 | 资产 | 大小 | 目标平台 |
 |------|-----:|----------|
-| [p11-kit-0.26.5.tar.xz](https://github.com/p11-glue/p11-kit/releases/download/0.26.5/p11-kit-0.26.5.tar.xz) | 1.0 MiB | `other` |
-| [p11-kit-0.26.5.tar.xz.sig](https://github.com/p11-glue/p11-kit/releases/download/0.26.5/p11-kit-0.26.5.tar.xz.sig) | 119 B | `other` |
+| [p11-kit-0.26.6.tar.xz](https://github.com/p11-glue/p11-kit/releases/download/0.26.6/p11-kit-0.26.6.tar.xz) | 1.1 MiB | `other` |
+| [p11-kit-0.26.6.tar.xz.sig](https://github.com/p11-glue/p11-kit/releases/download/0.26.6/p11-kit-0.26.6.tar.xz.sig) | 119 B | `other` |
 
 ## 发行版状态
 
-在 [repology.org](https://repology.org/project/p11-kit) 上共有 **334** 个发行版报告此项目。**108** 个 ✅ 已是最新上游版本，**168** 个 ⚠️ 使用旧版本。
+在 [repology.org](https://repology.org/project/p11-kit) 上共有 **344** 个发行版报告此项目。**21** 个 ✅ 已是最新上游版本，**263** 个 ⚠️ 使用旧版本。
 
 | 发行版 | 版本 | 状态 |
 |--------|------|------|
-| Debian unstable | `0.26.5` | ✅ latest |
-| Debian 14 | `0.26.5` | ✅ latest |
+| Debian unstable | `0.26.5` | ⚠️ outdated |
+| Debian 14 | `0.26.5` | ⚠️ outdated |
 | Debian 13 | `0.25.5` | ⚠️ outdated |
 | Ubuntu 26.04 LTS | `0.26.2` | ⚠️ outdated |
 | Ubuntu 24.04 LTS | `0.25.3` | ⚠️ outdated |
-| Arch | `0.26.5` | ✅ latest |
-| Homebrew | `0.26.5` | ✅ latest |
-| Fedora rawhide | `0.26.5` | ✅ latest |
-| Nix unstable | `0.26.5` | ✅ latest |
+| Arch | `0.26.5` | ⚠️ outdated |
+| Homebrew | `0.26.6` | ✅ latest |
+| Fedora rawhide | `0.26.5` | ⚠️ outdated |
+| Nix unstable | `0.26.5` | ⚠️ outdated |
 | Void | `0.26.4` | ⚠️ outdated |
 | Alpine edge | `0.26.2` | ⚠️ outdated |
-| openSUSE Tumbleweed | `0.26.5` | ✅ latest |
+| openSUSE Tumbleweed | `0.26.5` | ⚠️ outdated |
 
 ## 改进这些数据
 
@@ -90,4 +90,4 @@ p11-kit 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261112.yml` · 2026-11-12T07:02:35Z._
+_数据快照: `data/card/261113.yml` · 2026-11-13T06:26:45Z._

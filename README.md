@@ -32,54 +32,54 @@ Total: **85,896** lines of code across **303** files in the top 5 languages.
 
 ## Release
 
-- **Latest**: `0.26.5` (2026-08-06)
-- **Last commit**: 2026-11-10
+- **Latest**: `0.26.6` (2026-11-12)
+- **Last commit**: 2026-11-12
 - **Assets in release**: 2
 
 ## Popularity
 
-- **Stars**: 204 · **Forks**: 119 · **Open issues**: 245 · **Contributors**: 94
+- **Stars**: 204 · **Forks**: 119 · **Open issues**: 246 · **Contributors**: 95
 
 ## Totals (cumulative)
 
-- **Releases**: 41 · **Merged PRs**: 493 · **Open PRs**: 9 · **Closed issues**: 186 · **Open issues**: 59 · **Commits**: 1577
+- **Releases**: 42 · **Merged PRs**: 494 · **Open PRs**: 9 · **Closed issues**: 186 · **Open issues**: 60 · **Commits**: 1580
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-13 | 0 | 9 | 1 | 0 | 1 | 11 |
-| last60d | 2026-09-13 | 0 | 13 | 2 | 0 | 1 | 16 |
-| 90d | 2026-08-14 | 0 | 15 | 3 | 1 | 1 | 26 |
-| last180d | 2026-05-16 | 3 | 38 | 3 | 5 | 1 | 52 |
-| 360d | 2025-11-17 | 6 | 50 | 4 | 7 | 4 | 68 |
-| last720d | 2024-11-22 | 11 | 82 | 5 | 25 | 12 | 113 |
+| 30d | 2026-10-14 | 1 | 10 | 1 | 0 | 2 | 14 |
+| last60d | 2026-09-14 | 1 | 14 | 2 | 0 | 2 | 19 |
+| 90d | 2026-08-15 | 1 | 16 | 3 | 1 | 2 | 29 |
+| last180d | 2026-05-17 | 4 | 39 | 3 | 5 | 2 | 55 |
+| 360d | 2025-11-18 | 7 | 51 | 4 | 7 | 5 | 71 |
+| last720d | 2024-11-23 | 12 | 83 | 5 | 25 | 13 | 116 |
 
 ## Release assets
 
 | Asset | Size | Target |
 |-------|-----:|--------|
-| [p11-kit-0.26.5.tar.xz](https://github.com/p11-glue/p11-kit/releases/download/0.26.5/p11-kit-0.26.5.tar.xz) | 1.0 MiB | `other` |
-| [p11-kit-0.26.5.tar.xz.sig](https://github.com/p11-glue/p11-kit/releases/download/0.26.5/p11-kit-0.26.5.tar.xz.sig) | 119 B | `other` |
+| [p11-kit-0.26.6.tar.xz](https://github.com/p11-glue/p11-kit/releases/download/0.26.6/p11-kit-0.26.6.tar.xz) | 1.1 MiB | `other` |
+| [p11-kit-0.26.6.tar.xz.sig](https://github.com/p11-glue/p11-kit/releases/download/0.26.6/p11-kit-0.26.6.tar.xz.sig) | 119 B | `other` |
 
 ## Distribution status
 
-Reported by **334** distros on [repology.org](https://repology.org/project/p11-kit). **108** are ✅ on the latest upstream release, **168** are ⚠️ on an older version.
+Reported by **344** distros on [repology.org](https://repology.org/project/p11-kit). **21** are ✅ on the latest upstream release, **263** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
-| Debian unstable | `0.26.5` | ✅ latest |
-| Debian 14 | `0.26.5` | ✅ latest |
+| Debian unstable | `0.26.5` | ⚠️ outdated |
+| Debian 14 | `0.26.5` | ⚠️ outdated |
 | Debian 13 | `0.25.5` | ⚠️ outdated |
 | Ubuntu 26.04 LTS | `0.26.2` | ⚠️ outdated |
 | Ubuntu 24.04 LTS | `0.25.3` | ⚠️ outdated |
-| Arch | `0.26.5` | ✅ latest |
-| Homebrew | `0.26.5` | ✅ latest |
-| Fedora rawhide | `0.26.5` | ✅ latest |
-| Nix unstable | `0.26.5` | ✅ latest |
+| Arch | `0.26.5` | ⚠️ outdated |
+| Homebrew | `0.26.6` | ✅ latest |
+| Fedora rawhide | `0.26.5` | ⚠️ outdated |
+| Nix unstable | `0.26.5` | ⚠️ outdated |
 | Void | `0.26.4` | ⚠️ outdated |
 | Alpine edge | `0.26.2` | ⚠️ outdated |
-| openSUSE Tumbleweed | `0.26.5` | ✅ latest |
+| openSUSE Tumbleweed | `0.26.5` | ⚠️ outdated |
 
 ## Improve this data
 
@@ -90,4 +90,4 @@ Install metadata for p11-kit lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261112.yml` · 2026-11-12T07:02:35Z._
+_Snapshot: `data/card/261113.yml` · 2026-11-13T06:26:44Z._
