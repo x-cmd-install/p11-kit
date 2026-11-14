@@ -67,7 +67,7 @@
       "state": "uploaded",
       "size": 1150004,
       "digest": "sha256:5fda95dc89964af32dbd8e01b139c166717cf96c4fee3d601bcd60bdb23d23c6",
-      "download_count": 1502,
+      "download_count": 4571,
       "created_at": "2026-11-12T14:37:35Z",
       "updated_at": "2026-11-12T14:37:37Z",
       "browser_download_url": "https://github.com/p11-glue/p11-kit/releases/download/0.26.6/p11-kit-0.26.6.tar.xz"
@@ -103,7 +103,7 @@
       "state": "uploaded",
       "size": 119,
       "digest": "sha256:aeb9aec4cd9de89e12e3372cb567c7a95ee2bb3ec8a343ee892a1ee5c658ebed",
-      "download_count": 16,
+      "download_count": 46,
       "created_at": "2026-11-12T14:37:37Z",
       "updated_at": "2026-11-12T14:37:37Z",
       "browser_download_url": "https://github.com/p11-glue/p11-kit/releases/download/0.26.6/p11-kit-0.26.6.tar.xz.sig"
