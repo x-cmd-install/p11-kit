@@ -42,18 +42,18 @@ Total: **85,896** lines of code across **303** files in the top 5 languages.
 
 ## Totals (cumulative)
 
-- **Releases**: 42 · **Merged PRs**: 494 · **Open PRs**: 10 · **Closed issues**: 186 · **Open issues**: 60 · **Commits**: 1580
+- **Releases**: 42 · **Merged PRs**: 494 · **Open PRs**: 11 · **Closed issues**: 186 · **Open issues**: 60 · **Commits**: 1580
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-16 | 1 | 10 | 2 | 0 | 2 | 10 |
-| last60d | 2026-09-16 | 1 | 14 | 3 | 0 | 2 | 17 |
-| 90d | 2026-08-17 | 1 | 16 | 4 | 1 | 2 | 29 |
-| last180d | 2026-05-19 | 4 | 38 | 4 | 5 | 2 | 44 |
-| 360d | 2025-11-20 | 7 | 51 | 5 | 7 | 5 | 71 |
-| last720d | 2024-11-25 | 12 | 83 | 6 | 25 | 13 | 116 |
+| 30d | 2026-10-17 | 1 | 8 | 3 | 0 | 2 | 10 |
+| last60d | 2026-09-17 | 1 | 14 | 4 | 0 | 2 | 17 |
+| 90d | 2026-08-18 | 1 | 16 | 5 | 1 | 2 | 29 |
+| last180d | 2026-05-20 | 4 | 36 | 5 | 5 | 2 | 44 |
+| 360d | 2025-11-21 | 7 | 51 | 6 | 7 | 5 | 71 |
+| last720d | 2024-11-26 | 12 | 83 | 7 | 25 | 13 | 116 |
 
 ## Release assets
 
@@ -64,11 +64,11 @@ Total: **85,896** lines of code across **303** files in the top 5 languages.
 
 ## Distribution status
 
-Reported by **339** distros on [repology.org](https://repology.org/project/p11-kit). **43** are ✅ on the latest upstream release, **235** are ⚠️ on an older version.
+Reported by **339** distros on [repology.org](https://repology.org/project/p11-kit). **45** are ✅ on the latest upstream release, **232** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
-| Debian unstable | `0.26.5` | ⚠️ outdated |
+| Debian unstable | `0.26.5` | 🪦 legacy |
 | Debian 14 | `0.26.5` | ⚠️ outdated |
 | Debian 13 | `0.25.5` | ⚠️ outdated |
 | Ubuntu 26.04 LTS | `0.26.2` | ⚠️ outdated |
@@ -90,4 +90,4 @@ Install metadata for p11-kit lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261115.yml` · 2026-11-15T06:11:32Z._
+_Snapshot: `data/card/261116.yml` · 2026-11-16T06:12:52Z._
