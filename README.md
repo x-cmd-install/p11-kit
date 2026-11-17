@@ -14,11 +14,11 @@ x install p11-kit
 
 ## Code insight
 
-Total: **85,896** lines of code across **303** files in the top 5 languages.
+Total: **85,904** lines of code across **303** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| C | 69,091 | 10,822 | 14,920 | 184 |
+| C | 69,099 | 10,822 | 14,922 | 184 |
 | CHeader | 8,597 | 2,832 | 1,949 | 72 |
 | Sh | 2,344 | 153 | 414 | 26 |
 | Xml | 2,088 | 0 | 243 | 11 |
@@ -33,27 +33,27 @@ Total: **85,896** lines of code across **303** files in the top 5 languages.
 ## Release
 
 - **Latest**: `0.26.6` (2026-11-12)
-- **Last commit**: 2026-11-12
+- **Last commit**: 2026-11-16
 - **Assets in release**: 2
 
 ## Popularity
 
-- **Stars**: 204 · **Forks**: 119 · **Open issues**: 246 · **Contributors**: 95
+- **Stars**: 204 · **Forks**: 120 · **Open issues**: 246 · **Contributors**: 95
 
 ## Totals (cumulative)
 
-- **Releases**: 42 · **Merged PRs**: 494 · **Open PRs**: 11 · **Closed issues**: 186 · **Open issues**: 60 · **Commits**: 1580
+- **Releases**: 42 · **Merged PRs**: 495 · **Open PRs**: 11 · **Closed issues**: 187 · **Open issues**: 59 · **Commits**: 1581
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-17 | 1 | 8 | 3 | 0 | 2 | 10 |
-| last60d | 2026-09-17 | 1 | 14 | 4 | 0 | 2 | 17 |
-| 90d | 2026-08-18 | 1 | 16 | 5 | 1 | 2 | 29 |
-| last180d | 2026-05-20 | 4 | 36 | 5 | 5 | 2 | 44 |
-| 360d | 2025-11-21 | 7 | 51 | 6 | 7 | 5 | 71 |
-| last720d | 2024-11-26 | 12 | 83 | 7 | 25 | 13 | 116 |
+| 30d | 2026-10-18 | 1 | 9 | 3 | 1 | 1 | 11 |
+| last60d | 2026-09-18 | 1 | 14 | 4 | 1 | 1 | 18 |
+| 90d | 2026-08-19 | 1 | 17 | 5 | 2 | 1 | 30 |
+| last180d | 2026-05-21 | 4 | 33 | 5 | 6 | 1 | 45 |
+| 360d | 2025-11-22 | 7 | 52 | 6 | 8 | 4 | 72 |
+| last720d | 2024-11-27 | 12 | 84 | 7 | 26 | 12 | 117 |
 
 ## Release assets
 
@@ -64,11 +64,11 @@ Total: **85,896** lines of code across **303** files in the top 5 languages.
 
 ## Distribution status
 
-Reported by **339** distros on [repology.org](https://repology.org/project/p11-kit). **45** are ✅ on the latest upstream release, **232** are ⚠️ on an older version.
+Reported by **337** distros on [repology.org](https://repology.org/project/p11-kit). **53** are ✅ on the latest upstream release, **225** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
-| Debian unstable | `0.26.5` | 🪦 legacy |
+| Debian unstable | `0.26.6` | ✅ latest |
 | Debian 14 | `0.26.5` | ⚠️ outdated |
 | Debian 13 | `0.25.5` | ⚠️ outdated |
 | Ubuntu 26.04 LTS | `0.26.2` | ⚠️ outdated |
@@ -90,4 +90,4 @@ Install metadata for p11-kit lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261116.yml` · 2026-11-16T06:12:52Z._
+_Snapshot: `data/card/261117.yml` · 2026-11-17T07:47:29Z._
