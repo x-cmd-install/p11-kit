@@ -38,7 +38,7 @@ Total: **85,911** lines of code across **303** files in the top 5 languages.
 
 ## Popularity
 
-- **Stars**: 205 · **Forks**: 120 · **Open issues**: 246 · **Contributors**: 96
+- **Stars**: 205 · **Forks**: 119 · **Open issues**: 246 · **Contributors**: 96
 
 ## Totals (cumulative)
 
@@ -48,12 +48,12 @@ Total: **85,911** lines of code across **303** files in the top 5 languages.
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-21 | 1 | 9 | 3 | 1 | 1 | 12 |
-| last60d | 2026-09-21 | 1 | 14 | 4 | 1 | 1 | 19 |
-| 90d | 2026-08-22 | 1 | 18 | 4 | 1 | 1 | 31 |
-| last180d | 2026-05-24 | 4 | 33 | 5 | 5 | 1 | 46 |
-| 360d | 2025-11-25 | 7 | 52 | 6 | 8 | 4 | 73 |
-| last720d | 2024-11-30 | 12 | 85 | 7 | 26 | 12 | 118 |
+| 30d | 2026-10-22 | 1 | 9 | 3 | 1 | 1 | 12 |
+| last60d | 2026-09-22 | 1 | 14 | 4 | 1 | 1 | 19 |
+| 90d | 2026-08-23 | 1 | 18 | 4 | 1 | 1 | 31 |
+| last180d | 2026-05-25 | 4 | 31 | 5 | 5 | 1 | 46 |
+| 360d | 2025-11-26 | 7 | 52 | 6 | 8 | 4 | 73 |
+| last720d | 2024-12-01 | 12 | 85 | 7 | 26 | 12 | 118 |
 
 ## Release assets
 
@@ -64,7 +64,7 @@ Total: **85,911** lines of code across **303** files in the top 5 languages.
 
 ## Distribution status
 
-Reported by **335** distros on [repology.org](https://repology.org/project/p11-kit). **59** are ✅ on the latest upstream release, **216** are ⚠️ on an older version.
+Reported by **334** distros on [repology.org](https://repology.org/project/p11-kit). **62** are ✅ on the latest upstream release, **212** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -90,4 +90,4 @@ Install metadata for p11-kit lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261120.yml` · 2026-11-20T07:02:40Z._
+_Snapshot: `data/card/261121.yml` · 2026-11-21T07:01:34Z._
