@@ -38,7 +38,7 @@ Total: **85,911** lines of code across **303** files in the top 5 languages.
 
 ## Popularity
 
-- **Stars**: 205 · **Forks**: 119 · **Open issues**: 246 · **Contributors**: 96
+- **Stars**: 206 · **Forks**: 120 · **Open issues**: 246 · **Contributors**: 96
 
 ## Totals (cumulative)
 
@@ -48,12 +48,12 @@ Total: **85,911** lines of code across **303** files in the top 5 languages.
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-26 | 1 | 9 | 5 | 1 | 0 | 11 |
-| last60d | 2026-09-26 | 1 | 13 | 6 | 1 | 1 | 17 |
-| 90d | 2026-08-27 | 1 | 18 | 6 | 1 | 1 | 31 |
-| last180d | 2026-05-29 | 4 | 30 | 7 | 5 | 1 | 45 |
-| 360d | 2025-11-30 | 7 | 52 | 8 | 8 | 4 | 73 |
-| last720d | 2024-12-05 | 12 | 85 | 9 | 26 | 12 | 118 |
+| 30d | 2026-10-27 | 1 | 9 | 5 | 1 | 0 | 11 |
+| last60d | 2026-09-27 | 1 | 13 | 6 | 1 | 1 | 17 |
+| 90d | 2026-08-28 | 1 | 18 | 6 | 1 | 1 | 31 |
+| last180d | 2026-05-30 | 4 | 30 | 7 | 5 | 1 | 45 |
+| 360d | 2025-12-01 | 7 | 52 | 8 | 8 | 4 | 73 |
+| last720d | 2024-12-06 | 12 | 85 | 9 | 26 | 12 | 118 |
 
 ## Release assets
 
@@ -61,6 +61,25 @@ Total: **85,911** lines of code across **303** files in the top 5 languages.
 |-------|-----:|--------|
 | [p11-kit-0.26.6.tar.xz](https://github.com/p11-glue/p11-kit/releases/download/0.26.6/p11-kit-0.26.6.tar.xz) | 1.1 MiB | `other` |
 | [p11-kit-0.26.6.tar.xz.sig](https://github.com/p11-glue/p11-kit/releases/download/0.26.6/p11-kit-0.26.6.tar.xz.sig) | 119 B | `other` |
+
+## Distribution status
+
+Reported by **333** distros on [repology.org](https://repology.org/project/p11-kit). **67** are ✅ on the latest upstream release, **206** are ⚠️ on an older version.
+
+| Distro | Version | Status |
+|--------|---------|--------|
+| Debian unstable | `0.26.6` | ✅ latest |
+| Debian 14 | `0.26.6` | ✅ latest |
+| Debian 13 | `0.25.5` | ⚠️ outdated |
+| Ubuntu 26.04 LTS | `0.26.2` | ⚠️ outdated |
+| Ubuntu 24.04 LTS | `0.25.3` | ⚠️ outdated |
+| Arch | `0.26.6` | ✅ latest |
+| Homebrew | `0.26.6` | ✅ latest |
+| Fedora rawhide | `0.26.5` | ⚠️ outdated |
+| Nix unstable | `0.26.5` | ⚠️ outdated |
+| Void | `0.26.4` | ⚠️ outdated |
+| Alpine edge | `0.26.2` | ⚠️ outdated |
+| openSUSE Tumbleweed | `0.26.5` | ⚠️ outdated |
 
 ## Improve this data
 
@@ -71,4 +90,4 @@ Install metadata for p11-kit lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261125.yml` · 2026-11-25T08:15:35Z._
+_Snapshot: `data/card/261126.yml` · 2026-11-26T08:04:10Z._
